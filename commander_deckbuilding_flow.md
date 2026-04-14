@@ -336,10 +336,44 @@ Plain code routes to Phase 6 (Option A) or Phase 7 (Option B).
 
 ---
 
+## UI Direction
+- The agreed first UI should be a **local Streamlit app** rather than a separate frontend/backend web stack.
+- The UI should not drive the current CLI workflow directly because the CLI is tightly coupled to `print(...)` and `input(...)`.
+- Instead, add a UI-facing session controller that:
+  - owns `DeckState`
+  - advances the workflow one step at a time
+  - returns structured events for the UI to render
+- The detailed UI build spec now lives in `docs/ui_implementation_plan.md`.
+
+### UI Requirements
+- Render a clean chat-style interface for agent/user interaction.
+- Display real card images for recommended cards using Scryfall image URLs.
+- Let the user click cards to act on them whenever a recommendation batch is shown.
+- The same clickable card-grid pattern should be reused for:
+  - A1 commander search / random commander choices / commander confirmation
+  - A4 EDHREC opening recommendations
+  - A4 category recommendations
+  - A5 utility-land recommendations
+  - A6 additions and cut suggestions
+
+### Immediate UI Build Order
+1. Add a Scryfall helper to extract card image URLs.
+2. Add UI event dataclasses for:
+   - chat messages
+   - prompts
+   - recommendation batches
+   - deck-state refreshes
+3. Add a UI session controller layer.
+4. Scaffold `ui_app.py`.
+5. Implement A1 in the UI first.
+6. Then implement A4, then A5, then A6.
+
+---
+
 ## Open Decisions (Deferred to Development)
 - Exact Scryfall API endpoints and query syntax.
 - Exact price cap per card for each `budget_tier`.
 - Whether A4 gets one re-query attempt on poor results, or the user manually triggers a new batch.
-- UI framework for card image display and selection.
+- Exact visual styling of the Streamlit UI once the first local version exists.
 - Whether session state is stored in memory only, or persisted to disk/session file for resumability.
 - How plain code should repair or discard invalid A3-generated Scryfall queries.

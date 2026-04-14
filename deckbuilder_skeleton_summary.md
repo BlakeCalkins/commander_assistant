@@ -43,6 +43,14 @@
 - Added automatic `decklist.txt` snapshot export at the end of A6.
 - Changed A4 synergy handling so the `synergy` category now runs one recommendation round per declared A2 theme instead of one combined synergy batch.
 - Extended A3 so it also prepares separate synergy search plans per declared A2 theme.
+- Added `docs/ui_implementation_plan.md` to capture the agreed local UI direction.
+- Locked in the first UI direction as a local Streamlit app backed by a UI session controller instead of trying to bolt a web UI directly onto the CLI workflow.
+- Recorded the first UI implementation order:
+  - add Scryfall image helpers
+  - add UI event dataclasses
+  - add a UI session controller
+  - scaffold `ui_app.py`
+  - implement A1 in the UI first, then A4, A5, and A6
 
 ### 2026-04-07
 - Updated the workflow design to split the old A3 into two agents:
@@ -162,6 +170,8 @@ Current status:
 - A6 can now either fill remaining slots or recommend cuts if the deck is over 99 non-commander cards.
 - A6 now excludes lands entirely, so only A5 manages the mana base.
 - Usage and cost tracking are integrated for model-backed agent calls.
+- The agreed next product layer is a local Streamlit UI with clickable card images for recommendations.
+- The UI implementation spec now lives in `docs/ui_implementation_plan.md`.
 
 ## Files
 
@@ -331,6 +341,15 @@ Current status:
   - plain code confirms that synergy themes, budget tier, and category queue are all valid
 - A3 is silent and should remain a planning agent, not a conversational one.
 
+`docs/ui_implementation_plan.md`
+- Implementation plan for the upcoming local UI.
+- Defines:
+  - the Streamlit-first direction
+  - the new UI session-controller layer
+  - the event schema for chat, prompts, recommendation batches, and deck updates
+  - the reusable UI card shape
+  - the phased UI implementation order
+
 `tools/__init__.py`
 - Makes the `tools` folder importable as a package.
 
@@ -490,17 +509,26 @@ Those phases are still either design-only or placeholder behavior rather than re
 
 ### 7. Persistence and UI
 - Save and load workflow state if resumability is desired.
-- Add a real UI if you want image display, click-to-add, and hidden usage panels.
+- Implement the local Streamlit UI path described in `docs/ui_implementation_plan.md`.
+- Add Scryfall image extraction helpers so recommendation batches can render real card images.
+- Add UI event dataclasses and a UI session controller so the workflow can drive the UI without `print()` / `input()`.
+- Reuse one clickable card-grid component for:
+  - A1 commander choices
+  - A4 recommendations
+  - A5 utility lands
+  - A6 additions and cuts
 
 ## Recommended Next Steps
 
 The cleanest next steps are:
-- tune and harden A1 and A2 prompts now that they are live
-- tune the new EDHREC-backed A4 opening pass now that it is live
-- tune the new A4 ranking prompt now that the per-category path is live
-- refine A3 theme coverage when it still drifts into generic support queries
-- tune the new A5 lands phase against real deckbuilding runs
-- tune the new A6 completion phase against real deckbuilding runs
+- add `get_card_image_url(...)` to `ScryfallService`
+- add UI event dataclasses and the UI card view model
+- add the UI session controller layer
+- scaffold `ui_app.py`
+- implement A1 in the UI first
+- then implement A4 recommendation batches in the UI
+- then wire A5 and A6 into the same clickable card-grid component
+- after that, tune A3/A4/A5/A6 quality from real UI transcripts
 - implement A7
 
 That keeps the architecture consistent and lets each agent inherit the same usage tracking and error-handling structure.
