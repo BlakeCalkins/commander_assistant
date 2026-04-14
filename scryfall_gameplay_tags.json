@@ -1,0 +1,6763 @@
+{
+  "description": "Real gameplay-relevant tags from tagger.scryfall.com",
+  "total_unique_tags": 1351,
+  "tags": [
+    "triggered ability",
+    "activated ability",
+    "single target instant/sorcery",
+    "single english word name",
+    "unique type line",
+    "repeatable crime",
+    "alliteration",
+    "cycle-lea-basic-land",
+    "evasion",
+    "draw engine",
+    "eponymous",
+    "removal-destroy",
+    "drawback",
+    "repeatable lifegain",
+    "french vanilla",
+    "intervening if clause",
+    "cheaper than mv",
+    "ramp",
+    "pure draw",
+    "virtual french vanilla",
+    "burn player",
+    "utility land",
+    "spot removal",
+    "more expensive than mv",
+    "burn creature",
+    "sweeper",
+    "death trigger",
+    "repeatable pure draw",
+    "toughness boost to all",
+    "combat trick",
+    "namesake spell",
+    "lifegain",
+    "keyword anthem",
+    "burst draw",
+    "cantrip",
+    "refund",
+    "virtual vanilla",
+    "anthem",
+    "cast trigger-you",
+    "creaturefall",
+    "delayed trigger",
+    "removal-toughness",
+    "death trigger-self",
+    "protects-creature",
+    "symmetrical",
+    "removal-creature",
+    "meme",
+    "free-cast-another",
+    "type errata",
+    "gives flying",
+    "multiple bodies",
+    "removal-bounce",
+    "fun ruling",
+    "discard outlet",
+    "tap fuel-creature",
+    "group slug",
+    "multiple targets",
+    "scry",
+    "gains pp counters",
+    "tapper-creature",
+    "regrowth-creature",
+    "burn any",
+    "repeatable creature tokens",
+    "gives trample",
+    "castable from exile",
+    "attacking matters",
+    "per-player",
+    "gives pp counters",
+    "saboteur",
+    "jump",
+    "cast trigger-self",
+    "multi removal",
+    "egg",
+    "damage prevention",
+    "gives haste",
+    "hate-attacker",
+    "copy-creature",
+    "power boost to all",
+    "synergy-instant",
+    "sacrifice self",
+    "bear with set's mechanic",
+    "removal-exile",
+    "discard",
+    "free sacrifice outlet",
+    "reflexive trigger",
+    "attacking matters-self",
+    "mill-any",
+    "opponent loses life",
+    "removal-nonland",
+    "attack trigger",
+    "type addition from none",
+    "counters matter",
+    "tutor-land-basic",
+    "gives vigilance",
+    "typal-elf",
+    "reanimate-creature",
+    "prevent blocker",
+    "regenerates self",
+    "titan trigger",
+    "typal-sliver",
+    "reanimate-self",
+    "exile-self",
+    "type errata summon creature",
+    "noncreature typal",
+    "sweeper-one-sided",
+    "modal",
+    "repeatable treasures",
+    "enlarge",
+    "cost reducer",
+    "40k model",
+    "cycle-mm3-draft-signpost",
+    "cast on resolution",
+    "gives reach",
+    "gives first strike",
+    "counter fuel-energy",
+    "impulse-creature",
+    "untapper-creature",
+    "bounce-self",
+    "enters in company",
+    "cda-power",
+    "nonbasic-basic-land-type",
+    "sacrifice outlet-creature",
+    "synergy-token-creature",
+    "tutor-land-to-battlefield",
+    "hate-blocker",
+    "gains flying",
+    "mill-opponent",
+    "synergy-swamp",
+    "untaps self",
+    "typal-goblin",
+    "untapper-land",
+    "gives menace",
+    "combat ramp",
+    "disenchant/naturalize",
+    "donate token",
+    "type change",
+    "typal-dragon",
+    "graveyard fuel",
+    "undergrowth",
+    "synergy-equipment",
+    "hate-red",
+    "division",
+    "life payment",
+    "force attacker",
+    "passive ability",
+    "unblockable",
+    "mill-self",
+    "synergy-forest",
+    "hate-graveyard",
+    "power matters",
+    "pp counters matter",
+    "pinger",
+    "lifegain matters",
+    "counterspell with set mechanic",
+    "repeatable impulse",
+    "type addition phyrexian",
+    "life loss matters",
+    "gives indestructible",
+    "synergy-mountain",
+    "convoke",
+    "rainbow land",
+    "upkeep cost",
+    "gives tap ability",
+    "cast trigger",
+    "leaves trigger-self",
+    "repeatable plunder",
+    "lands matter",
+    "typal-vampire",
+    "firebreathing",
+    "restricted attacker",
+    "nightveil theft",
+    "prevent attack",
+    "swap removal",
+    "giant growth",
+    "gives hexproof",
+    "impulse-onto-battlefield",
+    "block trigger",
+    "burn planeswalker",
+    "opponent chooses",
+    "one-sided fight",
+    "creature count matters",
+    "land conversion",
+    "interrupt",
+    "card types in graveyard matter",
+    "dnd item",
+    "flicker-slow",
+    "synergy-plains",
+    "warlord",
+    "synergy-sorcery",
+    "name matters",
+    "rules nightmare",
+    "shapechange",
+    "cycle-rav-bounceland",
+    "landfall",
+    "graveyard fuel-creature",
+    "gives double strike",
+    "burn player-each",
+    "synergy-sacrifice",
+    "gains trample",
+    "gives unblockable",
+    "removal-planeswalker",
+    "uninspired",
+    "regrowth-self",
+    "roll d6",
+    "combat-neutral damage trigger",
+    "creature type name",
+    "homeward effect",
+    "coin flip",
+    "splits on death",
+    "extra untap",
+    "copy-self",
+    "renew",
+    "temporary reanimation",
+    "opponent lifegain",
+    "tutor-mv",
+    "toll",
+    "life for cards",
+    "cycle-2x2-draft-signpost",
+    "tutor-to-top",
+    "removal-tuck",
+    "shade pump",
+    "gains hexproof",
+    "discard with set's mechanic",
+    "shrink",
+    "typal-wizard",
+    "mass reanimation",
+    "synergy-token",
+    "consult-cast",
+    "aikido",
+    "play additional land",
+    "cycle-isd-checkland",
+    "hate-tapped",
+    "synergy-green",
+    "toughness matters",
+    "clone",
+    "repeatable food",
+    "prevent mass blockers",
+    "loot",
+    "hate-counterspell",
+    "synergy-blue",
+    "hate-discard",
+    "cycle-ktk-gainland",
+    "regenerates other",
+    "bombard-self",
+    "restricted blocker",
+    "flicker-creature",
+    "reanimate copy",
+    "cards in graveyard matter",
+    "surveil",
+    "flowstone",
+    "trigger from graveyard",
+    "gives castable from graveyard",
+    "set life total",
+    "universal type change",
+    "repeatable removal",
+    "repeatable clues",
+    "synergy-white",
+    "counter doubler",
+    "precognition engine",
+    "repeatable loot",
+    "gains deathtouch",
+    "doom blade",
+    "copy-sorcery",
+    "copy-instant",
+    "specter ability",
+    "prevent activation",
+    "regrowth-any",
+    "quick equip",
+    "drain creature",
+    "exponential",
+    "synergy-noncreature",
+    "mulch",
+    "rescue-land",
+    "theft-creature",
+    "dnd character",
+    "synergy-black",
+    "tutor-creature",
+    "hate-blue",
+    "synergy-flying",
+    "rescue-creature",
+    "usg-storyline-in-cards",
+    "damage prevention-you",
+    "synergy-island",
+    "gains lifelink",
+    "synergy-basic",
+    "synergy-clue",
+    "discard outlet-land",
+    "impulse-land",
+    "fog-selective",
+    "lockdown-creature",
+    "synergy-mill",
+    "copy-token",
+    "tutor-land-any",
+    "day/night",
+    "tutor-land-mountain",
+    "activate from graveyard",
+    "punny name",
+    "hate-set-mechanic",
+    "hellbending",
+    "doesn't untap",
+    "damage prevention-self",
+    "gives shroud",
+    "counterspell",
+    "banish",
+    "cycle-rav-signet",
+    "cycle-rav-shockland",
+    "unique planeswalker type",
+    "the ring tempts you",
+    "synergy-red",
+    "counterspell-noncreature",
+    "mass land denial",
+    "support",
+    "cycle-ons-m-cycling-land",
+    "sth-storyline-in-cards",
+    "lhurgoyf",
+    "hate-high-pt",
+    "sacrifice outlet-land",
+    "has identical token",
+    "hate-regenerate",
+    "gains haste",
+    "graveyard seal",
+    "token errata",
+    "draw hate",
+    "sweeper-graveyard",
+    "counterspell-soft",
+    "cheat death-self",
+    "untracked indefinite effect",
+    "synergy-enchantment",
+    "cycle-lea-boon",
+    "minigame",
+    "gives protection",
+    "hate-tutor",
+    "typal-merfolk",
+    "tapper-land",
+    "hungry demon",
+    "token doubler",
+    "french vanilla walker",
+    "dnd mechanic",
+    "gives lifelink",
+    "pacifism",
+    "synergy-aura",
+    "removal-fight",
+    "curiosity",
+    "mutual sacrifice",
+    "forced attacker",
+    "random discard",
+    "hellbent",
+    "real life animal name",
+    "gains double strike",
+    "hate-white",
+    "typal-ally",
+    "cycle-block-rav-guild-champion",
+    "delayed cantrip",
+    "hate-lifegain",
+    "cost increaser",
+    "play from top",
+    "synergy-low-power",
+    "poisonous",
+    "leaves battlefield trigger",
+    "modal inverse choices",
+    "vanity card",
+    "notorious templating",
+    "creature-ability-noncreature",
+    "extra combat phase",
+    "gives mm counters",
+    "cycle-ktk-wedgeland",
+    "shares name with a mechanic",
+    "animate self",
+    "typal-share",
+    "hate-flying",
+    "filterland",
+    "repeatable rummage",
+    "inverted effects",
+    "disintegrate",
+    "cda-toughness",
+    "mix-and-match",
+    "wild pair power toughness 1",
+    "castable from graveyard",
+    "typal-rat",
+    "roll d20",
+    "hate-target",
+    "hate-typal-zombie",
+    "cycle-lrw-lorwyn-five",
+    "cycle-ltr-draft-signpost",
+    "unblocked trigger",
+    "repeated keyword",
+    "untapped matters-self",
+    "rhystic",
+    "quadratic",
+    "synergy-historic",
+    "hate-theft",
+    "changeling",
+    "tutor-land-forest",
+    "three-letter name",
+    "typal-dinosaur",
+    "typal-warrior",
+    "gains indestructible",
+    "hate-black",
+    "old banish templating",
+    "cost ignorer",
+    "force blocker",
+    "restock-self",
+    "auto equip",
+    "counterspell-instant",
+    "cycle-ala-shardland",
+    "deanimate self",
+    "gives flash",
+    "enrage",
+    "discard to exile",
+    "dnd spell",
+    "unique cr reference",
+    "reanimate-from-opponent",
+    "animate land",
+    "transform-improvement",
+    "cycle-jmp-thriving-land",
+    "unique creature type",
+    "cycle-jou-scry-land",
+    "damage multiplier",
+    "gives uncounterable",
+    "thoughtseize",
+    "revolt",
+    "cycle-ice-painland",
+    "cycle-bfz-tangoland",
+    "freeze-creature",
+    "self-replacement effect",
+    "unpreventable-damage",
+    "copy-land",
+    "enchantmentfall",
+    "cheat death",
+    "sneaky-self-trigger",
+    "parasitic aura",
+    "sacrifice outlet-nonland",
+    "freeze-nonland",
+    "reanimate-enchantment",
+    "hate-low-power",
+    "hate-planeswalker",
+    "tutor-creature-dragon",
+    "defector",
+    "group hug",
+    "regrowth-sorcery",
+    "move counters",
+    "cycle-2xm-draft-signpost",
+    "state trigger",
+    "plunder",
+    "pwdeck-sidekick",
+    "open attraction",
+    "temporary token",
+    "hate-token",
+    "selective group hug",
+    "counterspell-creature",
+    "cycle-isd-enemy-utilityland",
+    "heroic",
+    "gives evasion",
+    "synergy-desert",
+    "unique noncreature token",
+    "potentially black border",
+    "alternate win condition",
+    "unique counter",
+    "gives charge counter",
+    "typal coupling",
+    "cycle-soi-tapland",
+    "type errata lord",
+    "type errata hound",
+    "rampage",
+    "flicker-self",
+    "misnomer",
+    "typal-choose",
+    "cycle-mir-dragon",
+    "keyword errata flash",
+    "synergy-vehicle",
+    "burn with set's mechanic",
+    "extra turn",
+    "synergy-blocker-self",
+    "impulse",
+    "tutor-card",
+    "restock-to-bottom",
+    "threshold",
+    "hate-ramp",
+    "whirlpool",
+    "sacrifice outlet-planeswalker",
+    "free discard outlet",
+    "rummage",
+    "cycle-cns-draft-signpost",
+    "impulsive draw",
+    "cycle-som-spellbomb",
+    "drain life",
+    "removal-land",
+    "counterspell-sacrifice",
+    "hate-etb",
+    "prevent trigger",
+    "hatebird",
+    "special action",
+    "recursion-sorcery",
+    "recursion-instant",
+    "hate-plains",
+    "tutor-instant",
+    "cycle-dmu-mn-signpost",
+    "power doubler",
+    "multiplayer",
+    "stalking",
+    "cycle-dft-team-captain",
+    "second draw matters",
+    "sol land",
+    "gives ward",
+    "tutor-to-battlefield",
+    "sneak-land",
+    "hate-noncreature",
+    "hate-typal-non-zombie",
+    "cycle-voice-angel",
+    "cycle-m10-checkland",
+    "giant growth with set mechanic",
+    "gives deathtouch",
+    "power matters-self",
+    "ramp with set's mechanic",
+    "mass shrink",
+    "hate-typal-elf",
+    "card advantage",
+    "phasing",
+    "polymorph",
+    "the doctor",
+    "exile on resolution",
+    "pseudo-fog",
+    "tuck-self",
+    "synergy-1/1",
+    "ferocious",
+    "cycle-lrw-r-changeling",
+    "extract",
+    "tutor-land-plains",
+    "synergy-blocker",
+    "hate-green",
+    "noncreature french vanilla",
+    "theft-mass",
+    "typal-wall",
+    "cycle-m11-titan",
+    "cycle-apc-painland",
+    "landhome",
+    "cycle-bng-scry-land",
+    "counter preservation-self",
+    "donate",
+    "fog",
+    "anagram",
+    "gains vigilance",
+    "cycle-zen-refugeland",
+    "quick enchant",
+    "creates token of a card",
+    "tutor-land-basic-forest",
+    "type errata name self",
+    "french vanilla equipment",
+    "potentially free",
+    "monarch matters",
+    "cycle-mor-c-changeling",
+    "cycle-soi-reveal-land",
+    "synergy-scry",
+    "birthing pod",
+    "removal-sacrifice",
+    "pridemate",
+    "regrowth-instant",
+    "reanimate-cast",
+    "deal with the devil",
+    "cycle-ody-ally-filterland",
+    "creature type phantasm",
+    "damage prevention-creature",
+    "hate-first-strike",
+    "tutor-land-swamp",
+    "cycle-guildgate",
+    "hate-nonbasic-land",
+    "gains menace",
+    "inspired",
+    "threaten",
+    "synergy-arcane",
+    "abyss",
+    "morbid",
+    "cycle-1mv-tutor",
+    "gives swampwalk",
+    "tmp-storyline-in-cards",
+    "creatureland",
+    "delve",
+    "cycle-war-gatewatch",
+    "counterspell-reusable",
+    "tutors by name",
+    "type errata specific bird",
+    "cycle-thb-omen",
+    "cycle-eve-c-retrace",
+    "impulse-to-top",
+    "alternate-cost-sacrifice",
+    "cycle-dtk-khan",
+    "unique evasion",
+    "typal-multi-sea-monster",
+    "double strike counter",
+    "removal-enchantment",
+    "synergy-explore",
+    "cycle-tmp-enemy-backward-hate",
+    "turns off defender",
+    "synergy-modified",
+    "turns off defender-self",
+    "cycle-ogw-tapland",
+    "synergy-shrine",
+    "remove from combat",
+    "second spell matters",
+    "tormenting voice",
+    "gives plot",
+    "text change",
+    "hurricane",
+    "cycle-fin-landcycler",
+    "counter fuel-other",
+    "synergy-suspend",
+    "pillowfort",
+    "retaliate to damage",
+    "synergy-sticker",
+    "enchantment engine",
+    "cycle-block-bfz-creatureland",
+    "alternate loss condition",
+    "synergy-graveyard-cast",
+    "reanimate matters",
+    "outlast mentor",
+    "cycle-block-rav-mnn",
+    "force draw",
+    "cycle-blb-season",
+    "painland",
+    "nonfunctional reminder counter",
+    "gives exalted",
+    "opponent sacrifices",
+    "cycle-khm-pathway",
+    "typal-cat",
+    "wish",
+    "discard outlet-creature",
+    "tutor-creature-wizard",
+    "affects dice roll",
+    "tax attack",
+    "counterspell-sorcery",
+    "devour",
+    "magecraft",
+    "theft",
+    "cycle-mkm-r-2c-noncreature",
+    "consult",
+    "cycle-mm2-draft-signpost",
+    "cycle-mir-x-allied-spell",
+    "overrun",
+    "discard outlet-last drawn",
+    "cycle-ths-nymph",
+    "brainstorm",
+    "cycle-apc-penumbra-vertical",
+    "exile with tax",
+    "daunt",
+    "mirrored knight",
+    "cycle-mir-diamond",
+    "tunneling",
+    "gives player hexproof",
+    "typal-zombie",
+    "counter increaser",
+    "cycle-tmp-napland",
+    "impulse-instant",
+    "synergy-activated-ability",
+    "life-total-matters-self",
+    "un-keyword",
+    "deprecated p/t counter",
+    "typal-lupine",
+    "sneak-creature",
+    "cycle-thb-demigod",
+    "gains protection",
+    "mechanical foreshadow",
+    "circle of protection",
+    "peek-library",
+    "hate-activation",
+    "graveyard order matters",
+    "type errata specific elemental",
+    "cycle-block-rtr-u-hybrid",
+    "unique p/t",
+    "off-turn casting matters",
+    "synergy-poison",
+    "tapland",
+    "cycle-tmp-medallion",
+    "cycle-ons-fetchland",
+    "cycle-iko-keyword-bonder",
+    "maro-sorcerer",
+    "mimic",
+    "y value",
+    "typal-eldrazi-spawn",
+    "wind drake with set's mechanic",
+    "any player ability",
+    "unique enchant target",
+    "enchantmentize",
+    "breaks-ktk-morph-rule",
+    "synergy-vote",
+    "cast trigger-other",
+    "tutor-to-exile",
+    "voting",
+    "cycle-som-fastland",
+    "sneak",
+    "gives suspend",
+    "nevermore",
+    "gifts ungiven",
+    "typal-god",
+    "tutor-land-island",
+    "reanimate-land",
+    "cycle-cns-pp-counter-recycler",
+    "cycle-dual-cycling-land",
+    "cycle-ala-obelisk",
+    "life-and-death-trigger-self",
+    "energy generator",
+    "crewless vehicle",
+    "damage redirection",
+    "tapland with set's mechanic",
+    "tome",
+    "prevent extra turns",
+    "synergy-exile-cast",
+    "cycle-ulg-perpetual-aura",
+    "repeatable impulsive draw",
+    "cycle-dom-draft-signpost",
+    "cycle-dgm-draft-signpost",
+    "cycle-hou-power-eternalizer",
+    "hate-flash",
+    "alternate-equip-cost",
+    "lifegain increaser",
+    "cycle-shm-reflection",
+    "cycle-ema-draft-signpost",
+    "punisher",
+    "typal-assassin",
+    "hate-storm",
+    "top matters",
+    "cycle-mid-alt-transform",
+    "cr 107.3f x card",
+    "synergy-trample",
+    "cycle-war-draft-signpost",
+    "typal-hamster",
+    "cycle-sok-shinen",
+    "wheel-one-sided",
+    "cycle-usg-2-cycling-land",
+    "afflict",
+    "cycle-shm-twobrid-spell",
+    "reanimate-aura",
+    "ritual",
+    "cycle-wwk-creatureland",
+    "cycle-c20-free-spell",
+    "restock-all",
+    "cycle-wwk-landfall-instant",
+    "synergy-planeswalker",
+    "cycle-ala-c-1-drop",
+    "change target",
+    "typal-druid",
+    "tutor-creature-goblin",
+    "staple with set's mechanic",
+    "fact or fiction",
+    "landfall other",
+    "counter fuel-oil",
+    "hate-damaged",
+    "blood moon effect",
+    "cycle-shm-liege",
+    "leaves graveyard trigger",
+    "draft matters",
+    "tokenlink",
+    "impact effect",
+    "inscryption achievement",
+    "cycle-lea-circle-protection",
+    "cycle-w16-u",
+    "twiddle",
+    "untapper-nonland",
+    "absorb",
+    "cycle-lci-hidden-land",
+    "synergy-tapped",
+    "high x matters",
+    "worship",
+    "typal-demon",
+    "typal-squirrel",
+    "tutor-from-opponent",
+    "vanilla equipment",
+    "type addition noble",
+    "synergy-level-up",
+    "demilich effect",
+    "cycle-mid-slowland",
+    "gives changeling",
+    "unnoted tracked information",
+    "synergy-pw-nissa",
+    "cycle-plc-rescue-vertical",
+    "dnd book",
+    "madness",
+    "lockdown-land",
+    "gains shroud",
+    "time matters",
+    "just shuffle",
+    "regrowth-planeswalker",
+    "remove counters-other",
+    "cycle-ths-draft-signpost",
+    "cycle-cn2-draft-signpost",
+    "hate-typal-choose",
+    "cycle-ema-tutor",
+    "bushido",
+    "typal-bird",
+    "hate-sorcery",
+    "pile",
+    "copy-ability",
+    "consult-onto-battlefield",
+    "speech matters",
+    "tapped matters-self",
+    "typal-angel",
+    "metalcraft",
+    "cycle-5dn-beacon",
+    "persist",
+    "cycle-fut-pact",
+    "delayed payment",
+    "cycle-fem-sacland",
+    "synergy-name-sticker",
+    "poison opponents",
+    "cycle-m21-garruk-vertical",
+    "counterspell-ability",
+    "becomes changeling",
+    "cycle-ust-functional-variant",
+    "cycle-tangoland",
+    "unique-type-exclusion",
+    "cycle-lrw-typal-cantrip",
+    "cycle-bok-kami-patron",
+    "gives poisonous",
+    "cycle-fut-sliver",
+    "slith ability",
+    "mm counters matter",
+    "cycle-xln-draft-signpost",
+    "typal-pirate",
+    "gives keyword counter",
+    "cycle-hou-deserts-matter",
+    "soothsaying",
+    "moxen",
+    "cycle-mmq-ability-wall",
+    "cycle-dka-m-monster",
+    "typal-non-share",
+    "cycle-dka-enemy-flashback",
+    "impulse-enchantment-shrine",
+    "cycle-cmr-m-sorcery",
+    "humble",
+    "gains first strike",
+    "cycle-ktk-enemy-ability",
+    "pillage effect",
+    "leyline",
+    "cycle-snc-u-signpost-creature",
+    "hate-mountain",
+    "gives affinity",
+    "cycle-ulg-creatureland",
+    "catch-22",
+    "counter fuel-time",
+    "typal-rogue",
+    "cycle-tmt-r-hybrid",
+    "cycle-tmt-team-up",
+    "prevent put counter",
+    "cycle-rav-guildmaster",
+    "mutiny",
+    "cycle-eoe-r-mono-spacecraft",
+    "theft-nonland",
+    "regrowth",
+    "cycle-gn3-mythic",
+    "typal-mount",
+    "catalog",
+    "gives mountainwalk",
+    "cycle-ody-threshold-painland",
+    "shakedown",
+    "cycle-tsp-u-sliver",
+    "radiate",
+    "perpetual aura",
+    "synergy-haste",
+    "cycle-ody-restock-creature",
+    "cycle-tmp-pain-tapland",
+    "neo-regenerate",
+    "creature type fungusaur",
+    "type errata dinosaur",
+    "cycle-hbg-draft-signpost",
+    "protects-enchantment",
+    "cycle-stx-c-hybrid-spell",
+    "cycle-aer-draft-signpost",
+    "cycle-akh-dual-cycling-land",
+    "hate-typal-wall",
+    "hate-typal-robot",
+    "cycle-scg-5m-landcycler",
+    "cycle-tla-c-tapland",
+    "cycle-ecl-r-dfc",
+    "cycle-iko-ultimatum",
+    "gives ingest",
+    "gives stalking",
+    "gives castable from exile",
+    "type errata tiger",
+    "dehydration with set mechanic",
+    "type errata specific snake",
+    "exhaust",
+    "impulse-enchantment",
+    "cycle-clb-u-d20",
+    "cycle-clu-guild-rare",
+    "cycle-w17-r-creature",
+    "cycle-mrd-golem",
+    "tutor-creature-mount",
+    "gives high flying",
+    "cycle-m19-precon-planeswalker",
+    "reanimate-nonland",
+    "cycle-lrw-typal-land",
+    "wedgeland",
+    "no-creature-type",
+    "cycle-m14-r-sliver",
+    "pseudo-haste",
+    "cycle-unh-c-gotcha",
+    "cost-reducer-enchantment",
+    "clash-like",
+    "heckbent",
+    "tutor-enchantment",
+    "sneak from library",
+    "cycle-ecl-typal-convoke",
+    "tutor-enchantment-aura",
+    "hate-named",
+    "faux targeting",
+    "cycle-soi-draft-signpost",
+    "virtual proliferate",
+    "cycle-inv-dual-tapland",
+    "soul warden ability",
+    "gives fear",
+    "remove counters-you",
+    "hate-battle",
+    "synergy-exert",
+    "tutor-land-gate",
+    "synergy-gate",
+    "synergy-flash",
+    "cycle-tdm-spirit-dragon",
+    "super-pridemate",
+    "typal-halfling",
+    "synergy-pw-lukka",
+    "adds name",
+    "synergy-suspect",
+    "dexterity",
+    "typal-orc",
+    "remove-from-stack",
+    "exiletouch",
+    "cycle-s99-vanilla-1-drop",
+    "hate-banding",
+    "removes banding",
+    "cycle-eld-r-adventurer",
+    "eldrazi titan",
+    "cycle-shm-filterland",
+    "synergy-villainous-choice",
+    "fling",
+    "fling-self",
+    "theft-cast",
+    "ransom",
+    "secretly choose",
+    "block additional",
+    "cycle-usg-enemy-forward-hate",
+    "animate enchantment",
+    "cycle-5dn-bringer",
+    "affinity for creatures",
+    "hate-wide",
+    "reminder text matters",
+    "keyword errata surveil",
+    "opponent-discard matters",
+    "theft-planeswalker",
+    "auto buyback",
+    "cycle-dst-pulse",
+    "battalion",
+    "cycle-plc-primeval-dragon",
+    "cycle-c18-lieutenant",
+    "you make the card",
+    "typal-barbarian",
+    "cycle-lgn-u-sliver",
+    "extra land",
+    "theft-equipment",
+    "discard outlet-random",
+    "cycle-block-rtr-guildmaster",
+    "synergy-bobblehead",
+    "cycle-zen-c-kicker",
+    "synergy-planet",
+    "removal-noncreature",
+    "grim return",
+    "cycle-stx-dean",
+    "cost-reducer-instant-sorcery",
+    "exo-storyline-in-cards",
+    "cycle-stx-hhhh",
+    "create-land-tokens",
+    "cycle-c16-undaunted-spell",
+    "tutor-aura-curse",
+    "synergy-curse",
+    "cycle-shm-untap",
+    "gains mm counters",
+    "cycle-blb-c-offspring",
+    "bombard",
+    "cycle-cmm-draft-signpost",
+    "synergy-ability-sticker",
+    "synergy-convoke",
+    "paradox",
+    "hate-typal-dalek",
+    "mill-exile",
+    "tutor-land-basic-plains",
+    "typal-samurai",
+    "cycle-ons-typal-land",
+    "cycle-inv-primeval-dragon",
+    "cycle-tmp-enemy-forward-hate",
+    "cycle-blb-hybrid",
+    "gives triple strike",
+    "cycle-bfz-blighted-land",
+    "gives prowess",
+    "synergy-vigilance",
+    "cycle-frf-runemark",
+    "mill-each",
+    "deanimate",
+    "cycle-avr-r-miracle",
+    "cycle-iko-u-mutate",
+    "tutor-to-graveyard",
+    "cycle-fut-augur",
+    "cycle-lrw-r-champion",
+    "cycle-c13-curse",
+    "gives fake flying",
+    "cycle-mir-enemy-backward-hate",
+    "game name",
+    "cycle-soi-x-madness-sorcery",
+    "tutor-creature-reach",
+    "tutor-creature-deathtouch",
+    "lure",
+    "synergy-food",
+    "gains defender",
+    "cycle-mh2-bridge",
+    "external prop",
+    "cycle-tor-tainted-land",
+    "cycle-extraplanar-praetor",
+    "type errata falcon",
+    "cycle-m20-precon-u",
+    "conjure-creature",
+    "digital to paper",
+    "low x matters",
+    "cycle-tmt-michelangelo-vert",
+    "cycle-zen-namedland",
+    "cycle-jou-dictate",
+    "cycle-rvr-c-hybrid",
+    "cycle-rna-hybrid-creature",
+    "reanimate-from-any",
+    "cycle-ala-resounding-spell",
+    "cycle-inv-leech",
+    "improvise",
+    "titan immortality",
+    "typal-assembly-worker",
+    "gives melee",
+    "cycle-inv-dragon-attendant",
+    "wheel-symmetrical",
+    "typal-saproling",
+    "hate-creatureland",
+    "cycle-khm-m-foretell-spell",
+    "cycle-hou-torment",
+    "creature type ship",
+    "synergy-cascade",
+    "cycle-plc-u-vanishing-creature",
+    "enters-and-leaves-trigger-self",
+    "cycle-block-rav-r-hybrid",
+    "cycle-otj-join-up",
+    "cycle-wwk-enemy-hate-trap",
+    "removes first strike",
+    "removes landwalk",
+    "cycle-m12-phantasmal",
+    "cycle-lrw-token-fuel",
+    "cycle-snc-hideaway",
+    "gives defender",
+    "cycle-wwk-zendikon",
+    "cycle-bok-m-sac-spirit",
+    "cycle-mkm-u-gold-noncreature",
+    "cycle-iko-mythos",
+    "cycle-pcy-field-aura",
+    "cycle-m21-precon-c",
+    "expertise",
+    "cycle-m12-mage",
+    "cycle-tdm-monument",
+    "type removal cat rakshasa",
+    "cycle-ktk-r-2mno-creature",
+    "undergrowth-all",
+    "cycle-pcy-avatar",
+    "strive",
+    "cycle-clb-invoker",
+    "rescue-nonland",
+    "cycle-tmp-u-sliver",
+    "ante matters",
+    "synergy-infect",
+    "removes flying",
+    "creature type monster",
+    "typal-pentavite",
+    "cycle-blb-draft-signpost",
+    "invitational card",
+    "cycle-nph-exarch",
+    "cost-reducer-activated-ability",
+    "synergy-target",
+    "cycle-stx-student",
+    "monstrosity",
+    "removes hexproof",
+    "hate-typal-skeleton",
+    "gains infect",
+    "cycle-lrw-typal-revealer",
+    "eternalize",
+    "cycle-fut-vanilla",
+    "deathtouch to planeswalkers",
+    "skip untap step",
+    "cycle-mmq-c-spellshaper",
+    "discount-self",
+    "save from death",
+    "cycle-inv-allied-2-2",
+    "tutor-interaction",
+    "synergy-creatureland",
+    "class type only",
+    "cycle-dmu-dual-land",
+    "cycle-mrd-spellbomb",
+    "conditional aura",
+    "impulse-nonland",
+    "genesis effect",
+    "cycle-mir-enemy-fw-protection",
+    "cycle-mir-fetchland",
+    "typal-tyranid",
+    "recycle",
+    "cycle-cardinal-paladin",
+    "cycle-spm-saga",
+    "synergy-snow",
+    "hunger reanimation",
+    "cycle-ala-esper-capsule",
+    "ingest",
+    "cycle-shm-witch",
+    "cycle-sok-maro-spell",
+    "counter fuel-keyword",
+    "typal-advisor",
+    "cycle-sok-onna",
+    "cycle-ecl-c-hybrid-changeling",
+    "trumpet blast",
+    "renown",
+    "typal-frog",
+    "type errata specific fish",
+    "typal-mutant",
+    "cycle-grn-r-split",
+    "self life loss matters",
+    "cycle-m19-draft-signpost",
+    "cycle-ody-retriever",
+    "regrowth-enchantment",
+    "guess",
+    "synergy-boast",
+    "drain strength",
+    "cycle-inv-c-ally-kicker-spell",
+    "typal-donkey",
+    "buttfight",
+    "tutor-creature-demon",
+    "counts as a type",
+    "restock-creature",
+    "cycle-akh-draft-signpost",
+    "affinity for attacking",
+    "pseudo-hexproof",
+    "cycle-bro-draft-signpost",
+    "typal-soldier",
+    "type errata specific horse",
+    "hate-equipment",
+    "synergy-dice",
+    "dice roll",
+    "theft-enchantment",
+    "cycle-apc-phyrexian-vertical",
+    "repeatable blood",
+    "cycle-rav-forward-boost",
+    "threaten with set's mechanic",
+    "cycle-block-rtr-u-guild-kw",
+    "typal-shade",
+    "theft-land",
+    "cycle-nem-recruiter",
+    "cycle-dtk-draft-signpost",
+    "cycle-ody-lhurgoyf",
+    "cycle-ktk-u-2mno-creature",
+    "cycle-ulg-sleeping-enchantment",
+    "cycle-jud-wish",
+    "typal-worm",
+    "typal-leech",
+    "cycle-basic-snow-land",
+    "equipless equipment",
+    "cycle-dtk-monument",
+    "tutor-sorcery",
+    "cycle-m21-basri-vertical",
+    "etb-untapper",
+    "repeatable landers",
+    "synergy-cycling",
+    "typal-rebel",
+    "tutor-creature-rebel",
+    "cycle-fin-crystal",
+    "type errata naga",
+    "type errata specific zombie",
+    "fetchland",
+    "theft-spell",
+    "old lifelink",
+    "cycle-hou-desert-painland",
+    "abrade",
+    "cycle-stx-reveal-land",
+    "cycle-pls-lair",
+    "cycle-khm-snow-tapland",
+    "cycle-ltr-landcycler",
+    "cycle-jou-minor-god",
+    "cycle-m15-sliver",
+    "cycle-ori-same-name-enhanced",
+    "amount spent matters",
+    "fulfilled futureshift",
+    "cycle-sth-allied-sliver",
+    "synergy-nonbasic-land",
+    "typal-non-archon",
+    "shares name with a set",
+    "cycle-cmd-vow",
+    "mixed subtypes",
+    "pierce",
+    "haven",
+    "o-ring with set mechanic",
+    "token replacer",
+    "synergy-treasure",
+    "emerge-from-creature",
+    "cycle-tsp-magus",
+    "synergy-pw-bolas",
+    "wannabe dark confidant",
+    "cycle-bro-c-mulch",
+    "type errata specific wizard",
+    "rhyming name",
+    "old ward",
+    "synergy-copy",
+    "cycle-lrw-harbinger",
+    "cycle-dmu-c-for-ally-kicker",
+    "synergy-untapped",
+    "cycle-tmt-donatello-vertical",
+    "skulk",
+    "type errata cephalid",
+    "type errata specific ape",
+    "rescue-enchantment",
+    "cycle-woe-restless-land",
+    "type errata ghost",
+    "cycle-m19-precon-pw-enhanced",
+    "roll d8",
+    "spite damage",
+    "cycle-con-wubrg-ability",
+    "cycle-neo-invoke",
+    "cycle-wwk-utilityland",
+    "counterspell-automatic",
+    "cycle-ori-draft-signpost",
+    "nimble",
+    "shardland",
+    "gainland",
+    "cycle-shm-basic-land-count",
+    "cycle-bro-basic-land-count",
+    "serpent-like",
+    "typal-faerie",
+    "cycle-lrw-typal-dual-land",
+    "cycle-ice-scarab",
+    "typal-knight",
+    "combat arbiter",
+    "pariah",
+    "cycle-afr-chromatic-dragon",
+    "lightning bolt redux",
+    "gives convoke",
+    "removal-token",
+    "cycle-mkm-draft-signpost",
+    "delayed replacement effect",
+    "cycle-tsp-allied-sliver",
+    "gives riot",
+    "buttstrike",
+    "cycle-vow-draft-signpost",
+    "cycle-som-c-metalcraft",
+    "theft-aura",
+    "useless in singleton formats",
+    "typal-horror",
+    "cycle-rix-c-typal-boost",
+    "super-menace",
+    "cycle-mh3-flare",
+    "tutor-cast",
+    "lure-limited",
+    "cycle-ecl-student",
+    "sneak-aura",
+    "multicast",
+    "mathy name",
+    "cycle-ecl-typal-kindred",
+    "shares name with a format",
+    "hate-enchantment",
+    "hate-forest",
+    "cycle-fut-dual-land",
+    "any zone type change",
+    "typal-minotaur",
+    "synergy-ninjutsu",
+    "gives ninjutsu",
+    "synergy-dungeon",
+    "cycle-frf-modal-spell",
+    "cycle-msc-fantastic-four",
+    "omnivore ability",
+    "cycle-rix-elder-dinosaur",
+    "typal-spider",
+    "cycle-morphling",
+    "gives unstoppable",
+    "unstoppable",
+    "type errata viashino",
+    "synergy-attraction",
+    "hunger",
+    "prevent damage redirection",
+    "cycle-bro-urza-vertical",
+    "tuck-outlet",
+    "gives intimidate",
+    "guest designer",
+    "burn-self",
+    "ball lightning",
+    "cycle-inv-mutation",
+    "cycle-all-replacement-land",
+    "sacrifice cost land",
+    "transform-mirror",
+    "bribery",
+    "cycle-ody-sacland",
+    "typal-beast",
+    "magic term name",
+    "raid",
+    "discard matters",
+    "synergy-emblem",
+    "cycle-mor-typal-counter-lord",
+    "cycle-kld-thriving-creature",
+    "cycle-eoe-draft-signpost",
+    "reach counter",
+    "trample counter",
+    "hate-typal-non-elf",
+    "gains fear",
+    "power matters-individual",
+    "cycle-spellshaped-from-fut",
+    "sunburst",
+    "cycle-ons-c-cycle-effect",
+    "cycle-chk-flash-aura",
+    "loner",
+    "type errata specific spirit",
+    "cycle-arb-dual-landcycler",
+    "sneak-self",
+    "even/odd matters",
+    "cycle-mom-invasion-signpost",
+    "counterspell-exile",
+    "cycle-tsp-forward-flashback",
+    "gives banding",
+    "hate-typal-goblin",
+    "cycle-gnt-mythic",
+    "cycle-ths-self-hate",
+    "damage increaser",
+    "miniwheel",
+    "cycle-ecl-c-hybrid",
+    "draw matters",
+    "synergy-exhaust",
+    "cycle-war-bond",
+    "cycle-eld-court-leader",
+    "cycle-akh-allied-aftermath",
+    "cycle-eld-hybrid",
+    "ninjutsu",
+    "cycle-dft-gearhulk",
+    "high flying",
+    "cycle-abu-dual-land",
+    "cycle-unf-u-blank",
+    "cycle-ths-emissary",
+    "gives demonstrate",
+    "cycle-mkm-hybrid-disguise",
+    "lich effect",
+    "show and tell",
+    "cycle-vow-c-typal-boost",
+    "cycle-spm-r-hybrid",
+    "typal-drake",
+    "cycle-mh3-c-draft-signpost",
+    "cranial plating",
+    "white elephant",
+    "shield counter",
+    "cycle-blb-duo",
+    "cycle-bng-nyxborn",
+    "players outside game matter"
+  ],
+  "tags_with_frequency": [
+    {
+      "tag": "triggered ability",
+      "frequency": 596
+    },
+    {
+      "tag": "activated ability",
+      "frequency": 593
+    },
+    {
+      "tag": "single target instant/sorcery",
+      "frequency": 431
+    },
+    {
+      "tag": "single english word name",
+      "frequency": 340
+    },
+    {
+      "tag": "unique type line",
+      "frequency": 335
+    },
+    {
+      "tag": "repeatable crime",
+      "frequency": 261
+    },
+    {
+      "tag": "alliteration",
+      "frequency": 184
+    },
+    {
+      "tag": "cycle-lea-basic-land",
+      "frequency": 167
+    },
+    {
+      "tag": "evasion",
+      "frequency": 154
+    },
+    {
+      "tag": "draw engine",
+      "frequency": 139
+    },
+    {
+      "tag": "eponymous",
+      "frequency": 138
+    },
+    {
+      "tag": "removal-destroy",
+      "frequency": 128
+    },
+    {
+      "tag": "drawback",
+      "frequency": 123
+    },
+    {
+      "tag": "repeatable lifegain",
+      "frequency": 118
+    },
+    {
+      "tag": "french vanilla",
+      "frequency": 109
+    },
+    {
+      "tag": "intervening if clause",
+      "frequency": 104
+    },
+    {
+      "tag": "cheaper than mv",
+      "frequency": 104
+    },
+    {
+      "tag": "ramp",
+      "frequency": 101
+    },
+    {
+      "tag": "pure draw",
+      "frequency": 94
+    },
+    {
+      "tag": "virtual french vanilla",
+      "frequency": 89
+    },
+    {
+      "tag": "burn player",
+      "frequency": 84
+    },
+    {
+      "tag": "utility land",
+      "frequency": 81
+    },
+    {
+      "tag": "spot removal",
+      "frequency": 81
+    },
+    {
+      "tag": "more expensive than mv",
+      "frequency": 79
+    },
+    {
+      "tag": "burn creature",
+      "frequency": 76
+    },
+    {
+      "tag": "sweeper",
+      "frequency": 74
+    },
+    {
+      "tag": "death trigger",
+      "frequency": 72
+    },
+    {
+      "tag": "repeatable pure draw",
+      "frequency": 71
+    },
+    {
+      "tag": "toughness boost to all",
+      "frequency": 68
+    },
+    {
+      "tag": "combat trick",
+      "frequency": 64
+    },
+    {
+      "tag": "namesake spell",
+      "frequency": 61
+    },
+    {
+      "tag": "lifegain",
+      "frequency": 61
+    },
+    {
+      "tag": "keyword anthem",
+      "frequency": 60
+    },
+    {
+      "tag": "burst draw",
+      "frequency": 60
+    },
+    {
+      "tag": "cantrip",
+      "frequency": 59
+    },
+    {
+      "tag": "refund",
+      "frequency": 55
+    },
+    {
+      "tag": "virtual vanilla",
+      "frequency": 51
+    },
+    {
+      "tag": "anthem",
+      "frequency": 50
+    },
+    {
+      "tag": "cast trigger-you",
+      "frequency": 49
+    },
+    {
+      "tag": "creaturefall",
+      "frequency": 48
+    },
+    {
+      "tag": "delayed trigger",
+      "frequency": 48
+    },
+    {
+      "tag": "removal-toughness",
+      "frequency": 47
+    },
+    {
+      "tag": "death trigger-self",
+      "frequency": 47
+    },
+    {
+      "tag": "protects-creature",
+      "frequency": 47
+    },
+    {
+      "tag": "symmetrical",
+      "frequency": 46
+    },
+    {
+      "tag": "removal-creature",
+      "frequency": 46
+    },
+    {
+      "tag": "meme",
+      "frequency": 45
+    },
+    {
+      "tag": "free-cast-another",
+      "frequency": 44
+    },
+    {
+      "tag": "type errata",
+      "frequency": 42
+    },
+    {
+      "tag": "gives flying",
+      "frequency": 40
+    },
+    {
+      "tag": "multiple bodies",
+      "frequency": 38
+    },
+    {
+      "tag": "removal-bounce",
+      "frequency": 38
+    },
+    {
+      "tag": "fun ruling",
+      "frequency": 36
+    },
+    {
+      "tag": "discard outlet",
+      "frequency": 36
+    },
+    {
+      "tag": "tap fuel-creature",
+      "frequency": 35
+    },
+    {
+      "tag": "group slug",
+      "frequency": 35
+    },
+    {
+      "tag": "multiple targets",
+      "frequency": 34
+    },
+    {
+      "tag": "scry",
+      "frequency": 34
+    },
+    {
+      "tag": "gains pp counters",
+      "frequency": 34
+    },
+    {
+      "tag": "tapper-creature",
+      "frequency": 34
+    },
+    {
+      "tag": "regrowth-creature",
+      "frequency": 33
+    },
+    {
+      "tag": "burn any",
+      "frequency": 32
+    },
+    {
+      "tag": "repeatable creature tokens",
+      "frequency": 32
+    },
+    {
+      "tag": "gives trample",
+      "frequency": 32
+    },
+    {
+      "tag": "castable from exile",
+      "frequency": 32
+    },
+    {
+      "tag": "attacking matters",
+      "frequency": 31
+    },
+    {
+      "tag": "per-player",
+      "frequency": 31
+    },
+    {
+      "tag": "gives pp counters",
+      "frequency": 29
+    },
+    {
+      "tag": "saboteur",
+      "frequency": 29
+    },
+    {
+      "tag": "jump",
+      "frequency": 29
+    },
+    {
+      "tag": "cast trigger-self",
+      "frequency": 28
+    },
+    {
+      "tag": "multi removal",
+      "frequency": 27
+    },
+    {
+      "tag": "egg",
+      "frequency": 27
+    },
+    {
+      "tag": "damage prevention",
+      "frequency": 27
+    },
+    {
+      "tag": "gives haste",
+      "frequency": 27
+    },
+    {
+      "tag": "hate-attacker",
+      "frequency": 26
+    },
+    {
+      "tag": "copy-creature",
+      "frequency": 25
+    },
+    {
+      "tag": "power boost to all",
+      "frequency": 25
+    },
+    {
+      "tag": "synergy-instant",
+      "frequency": 24
+    },
+    {
+      "tag": "sacrifice self",
+      "frequency": 23
+    },
+    {
+      "tag": "bear with set's mechanic",
+      "frequency": 23
+    },
+    {
+      "tag": "removal-exile",
+      "frequency": 23
+    },
+    {
+      "tag": "discard",
+      "frequency": 23
+    },
+    {
+      "tag": "free sacrifice outlet",
+      "frequency": 22
+    },
+    {
+      "tag": "reflexive trigger",
+      "frequency": 22
+    },
+    {
+      "tag": "attacking matters-self",
+      "frequency": 22
+    },
+    {
+      "tag": "mill-any",
+      "frequency": 22
+    },
+    {
+      "tag": "opponent loses life",
+      "frequency": 22
+    },
+    {
+      "tag": "removal-nonland",
+      "frequency": 22
+    },
+    {
+      "tag": "attack trigger",
+      "frequency": 21
+    },
+    {
+      "tag": "type addition from none",
+      "frequency": 21
+    },
+    {
+      "tag": "counters matter",
+      "frequency": 21
+    },
+    {
+      "tag": "tutor-land-basic",
+      "frequency": 20
+    },
+    {
+      "tag": "gives vigilance",
+      "frequency": 19
+    },
+    {
+      "tag": "typal-elf",
+      "frequency": 19
+    },
+    {
+      "tag": "reanimate-creature",
+      "frequency": 19
+    },
+    {
+      "tag": "prevent blocker",
+      "frequency": 19
+    },
+    {
+      "tag": "regenerates self",
+      "frequency": 19
+    },
+    {
+      "tag": "titan trigger",
+      "frequency": 19
+    },
+    {
+      "tag": "typal-sliver",
+      "frequency": 18
+    },
+    {
+      "tag": "reanimate-self",
+      "frequency": 18
+    },
+    {
+      "tag": "exile-self",
+      "frequency": 18
+    },
+    {
+      "tag": "type errata summon creature",
+      "frequency": 18
+    },
+    {
+      "tag": "noncreature typal",
+      "frequency": 18
+    },
+    {
+      "tag": "sweeper-one-sided",
+      "frequency": 17
+    },
+    {
+      "tag": "modal",
+      "frequency": 17
+    },
+    {
+      "tag": "repeatable treasures",
+      "frequency": 17
+    },
+    {
+      "tag": "enlarge",
+      "frequency": 17
+    },
+    {
+      "tag": "cost reducer",
+      "frequency": 17
+    },
+    {
+      "tag": "40k model",
+      "frequency": 17
+    },
+    {
+      "tag": "cycle-mm3-draft-signpost",
+      "frequency": 17
+    },
+    {
+      "tag": "cast on resolution",
+      "frequency": 17
+    },
+    {
+      "tag": "gives reach",
+      "frequency": 17
+    },
+    {
+      "tag": "gives first strike",
+      "frequency": 16
+    },
+    {
+      "tag": "counter fuel-energy",
+      "frequency": 16
+    },
+    {
+      "tag": "impulse-creature",
+      "frequency": 16
+    },
+    {
+      "tag": "untapper-creature",
+      "frequency": 16
+    },
+    {
+      "tag": "bounce-self",
+      "frequency": 16
+    },
+    {
+      "tag": "enters in company",
+      "frequency": 16
+    },
+    {
+      "tag": "cda-power",
+      "frequency": 16
+    },
+    {
+      "tag": "nonbasic-basic-land-type",
+      "frequency": 15
+    },
+    {
+      "tag": "sacrifice outlet-creature",
+      "frequency": 15
+    },
+    {
+      "tag": "synergy-token-creature",
+      "frequency": 15
+    },
+    {
+      "tag": "tutor-land-to-battlefield",
+      "frequency": 15
+    },
+    {
+      "tag": "hate-blocker",
+      "frequency": 15
+    },
+    {
+      "tag": "gains flying",
+      "frequency": 15
+    },
+    {
+      "tag": "mill-opponent",
+      "frequency": 15
+    },
+    {
+      "tag": "synergy-swamp",
+      "frequency": 15
+    },
+    {
+      "tag": "untaps self",
+      "frequency": 15
+    },
+    {
+      "tag": "typal-goblin",
+      "frequency": 15
+    },
+    {
+      "tag": "untapper-land",
+      "frequency": 15
+    },
+    {
+      "tag": "gives menace",
+      "frequency": 15
+    },
+    {
+      "tag": "combat ramp",
+      "frequency": 14
+    },
+    {
+      "tag": "disenchant/naturalize",
+      "frequency": 14
+    },
+    {
+      "tag": "donate token",
+      "frequency": 14
+    },
+    {
+      "tag": "type change",
+      "frequency": 14
+    },
+    {
+      "tag": "typal-dragon",
+      "frequency": 14
+    },
+    {
+      "tag": "graveyard fuel",
+      "frequency": 14
+    },
+    {
+      "tag": "undergrowth",
+      "frequency": 14
+    },
+    {
+      "tag": "synergy-equipment",
+      "frequency": 14
+    },
+    {
+      "tag": "hate-red",
+      "frequency": 14
+    },
+    {
+      "tag": "division",
+      "frequency": 14
+    },
+    {
+      "tag": "life payment",
+      "frequency": 14
+    },
+    {
+      "tag": "force attacker",
+      "frequency": 13
+    },
+    {
+      "tag": "passive ability",
+      "frequency": 13
+    },
+    {
+      "tag": "unblockable",
+      "frequency": 13
+    },
+    {
+      "tag": "mill-self",
+      "frequency": 13
+    },
+    {
+      "tag": "synergy-forest",
+      "frequency": 13
+    },
+    {
+      "tag": "hate-graveyard",
+      "frequency": 12
+    },
+    {
+      "tag": "power matters",
+      "frequency": 12
+    },
+    {
+      "tag": "pp counters matter",
+      "frequency": 12
+    },
+    {
+      "tag": "pinger",
+      "frequency": 12
+    },
+    {
+      "tag": "lifegain matters",
+      "frequency": 12
+    },
+    {
+      "tag": "counterspell with set mechanic",
+      "frequency": 12
+    },
+    {
+      "tag": "repeatable impulse",
+      "frequency": 12
+    },
+    {
+      "tag": "type addition phyrexian",
+      "frequency": 12
+    },
+    {
+      "tag": "life loss matters",
+      "frequency": 12
+    },
+    {
+      "tag": "gives indestructible",
+      "frequency": 12
+    },
+    {
+      "tag": "synergy-mountain",
+      "frequency": 12
+    },
+    {
+      "tag": "convoke",
+      "frequency": 12
+    },
+    {
+      "tag": "rainbow land",
+      "frequency": 12
+    },
+    {
+      "tag": "upkeep cost",
+      "frequency": 12
+    },
+    {
+      "tag": "gives tap ability",
+      "frequency": 12
+    },
+    {
+      "tag": "cast trigger",
+      "frequency": 12
+    },
+    {
+      "tag": "leaves trigger-self",
+      "frequency": 12
+    },
+    {
+      "tag": "repeatable plunder",
+      "frequency": 12
+    },
+    {
+      "tag": "lands matter",
+      "frequency": 11
+    },
+    {
+      "tag": "typal-vampire",
+      "frequency": 11
+    },
+    {
+      "tag": "firebreathing",
+      "frequency": 11
+    },
+    {
+      "tag": "restricted attacker",
+      "frequency": 11
+    },
+    {
+      "tag": "nightveil theft",
+      "frequency": 11
+    },
+    {
+      "tag": "prevent attack",
+      "frequency": 11
+    },
+    {
+      "tag": "swap removal",
+      "frequency": 11
+    },
+    {
+      "tag": "giant growth",
+      "frequency": 11
+    },
+    {
+      "tag": "gives hexproof",
+      "frequency": 11
+    },
+    {
+      "tag": "impulse-onto-battlefield",
+      "frequency": 11
+    },
+    {
+      "tag": "block trigger",
+      "frequency": 11
+    },
+    {
+      "tag": "burn planeswalker",
+      "frequency": 11
+    },
+    {
+      "tag": "opponent chooses",
+      "frequency": 10
+    },
+    {
+      "tag": "one-sided fight",
+      "frequency": 10
+    },
+    {
+      "tag": "creature count matters",
+      "frequency": 10
+    },
+    {
+      "tag": "land conversion",
+      "frequency": 10
+    },
+    {
+      "tag": "interrupt",
+      "frequency": 10
+    },
+    {
+      "tag": "card types in graveyard matter",
+      "frequency": 10
+    },
+    {
+      "tag": "dnd item",
+      "frequency": 10
+    },
+    {
+      "tag": "flicker-slow",
+      "frequency": 10
+    },
+    {
+      "tag": "synergy-plains",
+      "frequency": 10
+    },
+    {
+      "tag": "warlord",
+      "frequency": 10
+    },
+    {
+      "tag": "synergy-sorcery",
+      "frequency": 10
+    },
+    {
+      "tag": "name matters",
+      "frequency": 10
+    },
+    {
+      "tag": "rules nightmare",
+      "frequency": 10
+    },
+    {
+      "tag": "shapechange",
+      "frequency": 10
+    },
+    {
+      "tag": "cycle-rav-bounceland",
+      "frequency": 9
+    },
+    {
+      "tag": "landfall",
+      "frequency": 9
+    },
+    {
+      "tag": "graveyard fuel-creature",
+      "frequency": 9
+    },
+    {
+      "tag": "gives double strike",
+      "frequency": 9
+    },
+    {
+      "tag": "burn player-each",
+      "frequency": 9
+    },
+    {
+      "tag": "synergy-sacrifice",
+      "frequency": 9
+    },
+    {
+      "tag": "gains trample",
+      "frequency": 9
+    },
+    {
+      "tag": "gives unblockable",
+      "frequency": 9
+    },
+    {
+      "tag": "removal-planeswalker",
+      "frequency": 9
+    },
+    {
+      "tag": "uninspired",
+      "frequency": 9
+    },
+    {
+      "tag": "regrowth-self",
+      "frequency": 9
+    },
+    {
+      "tag": "roll d6",
+      "frequency": 9
+    },
+    {
+      "tag": "combat-neutral damage trigger",
+      "frequency": 9
+    },
+    {
+      "tag": "creature type name",
+      "frequency": 9
+    },
+    {
+      "tag": "homeward effect",
+      "frequency": 9
+    },
+    {
+      "tag": "coin flip",
+      "frequency": 9
+    },
+    {
+      "tag": "splits on death",
+      "frequency": 9
+    },
+    {
+      "tag": "extra untap",
+      "frequency": 9
+    },
+    {
+      "tag": "copy-self",
+      "frequency": 9
+    },
+    {
+      "tag": "renew",
+      "frequency": 9
+    },
+    {
+      "tag": "temporary reanimation",
+      "frequency": 9
+    },
+    {
+      "tag": "opponent lifegain",
+      "frequency": 9
+    },
+    {
+      "tag": "tutor-mv",
+      "frequency": 9
+    },
+    {
+      "tag": "toll",
+      "frequency": 9
+    },
+    {
+      "tag": "life for cards",
+      "frequency": 9
+    },
+    {
+      "tag": "cycle-2x2-draft-signpost",
+      "frequency": 9
+    },
+    {
+      "tag": "tutor-to-top",
+      "frequency": 8
+    },
+    {
+      "tag": "removal-tuck",
+      "frequency": 8
+    },
+    {
+      "tag": "shade pump",
+      "frequency": 8
+    },
+    {
+      "tag": "gains hexproof",
+      "frequency": 8
+    },
+    {
+      "tag": "discard with set's mechanic",
+      "frequency": 8
+    },
+    {
+      "tag": "shrink",
+      "frequency": 8
+    },
+    {
+      "tag": "typal-wizard",
+      "frequency": 8
+    },
+    {
+      "tag": "mass reanimation",
+      "frequency": 8
+    },
+    {
+      "tag": "synergy-token",
+      "frequency": 8
+    },
+    {
+      "tag": "consult-cast",
+      "frequency": 8
+    },
+    {
+      "tag": "aikido",
+      "frequency": 8
+    },
+    {
+      "tag": "play additional land",
+      "frequency": 8
+    },
+    {
+      "tag": "cycle-isd-checkland",
+      "frequency": 8
+    },
+    {
+      "tag": "hate-tapped",
+      "frequency": 8
+    },
+    {
+      "tag": "synergy-green",
+      "frequency": 8
+    },
+    {
+      "tag": "toughness matters",
+      "frequency": 8
+    },
+    {
+      "tag": "clone",
+      "frequency": 8
+    },
+    {
+      "tag": "repeatable food",
+      "frequency": 8
+    },
+    {
+      "tag": "prevent mass blockers",
+      "frequency": 8
+    },
+    {
+      "tag": "loot",
+      "frequency": 8
+    },
+    {
+      "tag": "hate-counterspell",
+      "frequency": 8
+    },
+    {
+      "tag": "synergy-blue",
+      "frequency": 8
+    },
+    {
+      "tag": "hate-discard",
+      "frequency": 8
+    },
+    {
+      "tag": "cycle-ktk-gainland",
+      "frequency": 8
+    },
+    {
+      "tag": "regenerates other",
+      "frequency": 8
+    },
+    {
+      "tag": "bombard-self",
+      "frequency": 8
+    },
+    {
+      "tag": "restricted blocker",
+      "frequency": 8
+    },
+    {
+      "tag": "flicker-creature",
+      "frequency": 7
+    },
+    {
+      "tag": "reanimate copy",
+      "frequency": 7
+    },
+    {
+      "tag": "cards in graveyard matter",
+      "frequency": 7
+    },
+    {
+      "tag": "surveil",
+      "frequency": 7
+    },
+    {
+      "tag": "flowstone",
+      "frequency": 7
+    },
+    {
+      "tag": "trigger from graveyard",
+      "frequency": 7
+    },
+    {
+      "tag": "gives castable from graveyard",
+      "frequency": 7
+    },
+    {
+      "tag": "set life total",
+      "frequency": 7
+    },
+    {
+      "tag": "universal type change",
+      "frequency": 7
+    },
+    {
+      "tag": "repeatable removal",
+      "frequency": 7
+    },
+    {
+      "tag": "repeatable clues",
+      "frequency": 7
+    },
+    {
+      "tag": "synergy-white",
+      "frequency": 7
+    },
+    {
+      "tag": "counter doubler",
+      "frequency": 7
+    },
+    {
+      "tag": "precognition engine",
+      "frequency": 7
+    },
+    {
+      "tag": "repeatable loot",
+      "frequency": 7
+    },
+    {
+      "tag": "gains deathtouch",
+      "frequency": 7
+    },
+    {
+      "tag": "doom blade",
+      "frequency": 7
+    },
+    {
+      "tag": "copy-sorcery",
+      "frequency": 7
+    },
+    {
+      "tag": "copy-instant",
+      "frequency": 7
+    },
+    {
+      "tag": "specter ability",
+      "frequency": 7
+    },
+    {
+      "tag": "prevent activation",
+      "frequency": 7
+    },
+    {
+      "tag": "regrowth-any",
+      "frequency": 7
+    },
+    {
+      "tag": "quick equip",
+      "frequency": 7
+    },
+    {
+      "tag": "drain creature",
+      "frequency": 7
+    },
+    {
+      "tag": "exponential",
+      "frequency": 7
+    },
+    {
+      "tag": "synergy-noncreature",
+      "frequency": 7
+    },
+    {
+      "tag": "mulch",
+      "frequency": 7
+    },
+    {
+      "tag": "rescue-land",
+      "frequency": 7
+    },
+    {
+      "tag": "theft-creature",
+      "frequency": 7
+    },
+    {
+      "tag": "dnd character",
+      "frequency": 7
+    },
+    {
+      "tag": "synergy-black",
+      "frequency": 7
+    },
+    {
+      "tag": "tutor-creature",
+      "frequency": 7
+    },
+    {
+      "tag": "hate-blue",
+      "frequency": 7
+    },
+    {
+      "tag": "synergy-flying",
+      "frequency": 7
+    },
+    {
+      "tag": "rescue-creature",
+      "frequency": 7
+    },
+    {
+      "tag": "usg-storyline-in-cards",
+      "frequency": 7
+    },
+    {
+      "tag": "damage prevention-you",
+      "frequency": 7
+    },
+    {
+      "tag": "synergy-island",
+      "frequency": 7
+    },
+    {
+      "tag": "gains lifelink",
+      "frequency": 7
+    },
+    {
+      "tag": "synergy-basic",
+      "frequency": 6
+    },
+    {
+      "tag": "synergy-clue",
+      "frequency": 6
+    },
+    {
+      "tag": "discard outlet-land",
+      "frequency": 6
+    },
+    {
+      "tag": "impulse-land",
+      "frequency": 6
+    },
+    {
+      "tag": "fog-selective",
+      "frequency": 6
+    },
+    {
+      "tag": "lockdown-creature",
+      "frequency": 6
+    },
+    {
+      "tag": "synergy-mill",
+      "frequency": 6
+    },
+    {
+      "tag": "copy-token",
+      "frequency": 6
+    },
+    {
+      "tag": "tutor-land-any",
+      "frequency": 6
+    },
+    {
+      "tag": "day/night",
+      "frequency": 6
+    },
+    {
+      "tag": "tutor-land-mountain",
+      "frequency": 6
+    },
+    {
+      "tag": "activate from graveyard",
+      "frequency": 6
+    },
+    {
+      "tag": "punny name",
+      "frequency": 6
+    },
+    {
+      "tag": "hate-set-mechanic",
+      "frequency": 6
+    },
+    {
+      "tag": "hellbending",
+      "frequency": 6
+    },
+    {
+      "tag": "doesn't untap",
+      "frequency": 6
+    },
+    {
+      "tag": "damage prevention-self",
+      "frequency": 6
+    },
+    {
+      "tag": "gives shroud",
+      "frequency": 6
+    },
+    {
+      "tag": "counterspell",
+      "frequency": 6
+    },
+    {
+      "tag": "banish",
+      "frequency": 6
+    },
+    {
+      "tag": "cycle-rav-signet",
+      "frequency": 6
+    },
+    {
+      "tag": "cycle-rav-shockland",
+      "frequency": 6
+    },
+    {
+      "tag": "unique planeswalker type",
+      "frequency": 6
+    },
+    {
+      "tag": "the ring tempts you",
+      "frequency": 6
+    },
+    {
+      "tag": "synergy-red",
+      "frequency": 6
+    },
+    {
+      "tag": "counterspell-noncreature",
+      "frequency": 6
+    },
+    {
+      "tag": "mass land denial",
+      "frequency": 6
+    },
+    {
+      "tag": "support",
+      "frequency": 6
+    },
+    {
+      "tag": "cycle-ons-m-cycling-land",
+      "frequency": 6
+    },
+    {
+      "tag": "sth-storyline-in-cards",
+      "frequency": 6
+    },
+    {
+      "tag": "lhurgoyf",
+      "frequency": 6
+    },
+    {
+      "tag": "hate-high-pt",
+      "frequency": 6
+    },
+    {
+      "tag": "sacrifice outlet-land",
+      "frequency": 6
+    },
+    {
+      "tag": "has identical token",
+      "frequency": 6
+    },
+    {
+      "tag": "hate-regenerate",
+      "frequency": 6
+    },
+    {
+      "tag": "gains haste",
+      "frequency": 6
+    },
+    {
+      "tag": "graveyard seal",
+      "frequency": 6
+    },
+    {
+      "tag": "token errata",
+      "frequency": 6
+    },
+    {
+      "tag": "draw hate",
+      "frequency": 6
+    },
+    {
+      "tag": "sweeper-graveyard",
+      "frequency": 6
+    },
+    {
+      "tag": "counterspell-soft",
+      "frequency": 5
+    },
+    {
+      "tag": "cheat death-self",
+      "frequency": 5
+    },
+    {
+      "tag": "untracked indefinite effect",
+      "frequency": 5
+    },
+    {
+      "tag": "synergy-enchantment",
+      "frequency": 5
+    },
+    {
+      "tag": "cycle-lea-boon",
+      "frequency": 5
+    },
+    {
+      "tag": "minigame",
+      "frequency": 5
+    },
+    {
+      "tag": "gives protection",
+      "frequency": 5
+    },
+    {
+      "tag": "hate-tutor",
+      "frequency": 5
+    },
+    {
+      "tag": "typal-merfolk",
+      "frequency": 5
+    },
+    {
+      "tag": "tapper-land",
+      "frequency": 5
+    },
+    {
+      "tag": "hungry demon",
+      "frequency": 5
+    },
+    {
+      "tag": "token doubler",
+      "frequency": 5
+    },
+    {
+      "tag": "french vanilla walker",
+      "frequency": 5
+    },
+    {
+      "tag": "dnd mechanic",
+      "frequency": 5
+    },
+    {
+      "tag": "gives lifelink",
+      "frequency": 5
+    },
+    {
+      "tag": "pacifism",
+      "frequency": 5
+    },
+    {
+      "tag": "synergy-aura",
+      "frequency": 5
+    },
+    {
+      "tag": "removal-fight",
+      "frequency": 5
+    },
+    {
+      "tag": "curiosity",
+      "frequency": 5
+    },
+    {
+      "tag": "mutual sacrifice",
+      "frequency": 5
+    },
+    {
+      "tag": "forced attacker",
+      "frequency": 5
+    },
+    {
+      "tag": "random discard",
+      "frequency": 5
+    },
+    {
+      "tag": "hellbent",
+      "frequency": 5
+    },
+    {
+      "tag": "real life animal name",
+      "frequency": 5
+    },
+    {
+      "tag": "gains double strike",
+      "frequency": 5
+    },
+    {
+      "tag": "hate-white",
+      "frequency": 5
+    },
+    {
+      "tag": "typal-ally",
+      "frequency": 5
+    },
+    {
+      "tag": "cycle-block-rav-guild-champion",
+      "frequency": 5
+    },
+    {
+      "tag": "delayed cantrip",
+      "frequency": 5
+    },
+    {
+      "tag": "hate-lifegain",
+      "frequency": 5
+    },
+    {
+      "tag": "cost increaser",
+      "frequency": 5
+    },
+    {
+      "tag": "play from top",
+      "frequency": 5
+    },
+    {
+      "tag": "synergy-low-power",
+      "frequency": 5
+    },
+    {
+      "tag": "poisonous",
+      "frequency": 5
+    },
+    {
+      "tag": "leaves battlefield trigger",
+      "frequency": 5
+    },
+    {
+      "tag": "modal inverse choices",
+      "frequency": 5
+    },
+    {
+      "tag": "vanity card",
+      "frequency": 5
+    },
+    {
+      "tag": "notorious templating",
+      "frequency": 5
+    },
+    {
+      "tag": "creature-ability-noncreature",
+      "frequency": 5
+    },
+    {
+      "tag": "extra combat phase",
+      "frequency": 5
+    },
+    {
+      "tag": "gives mm counters",
+      "frequency": 5
+    },
+    {
+      "tag": "cycle-ktk-wedgeland",
+      "frequency": 5
+    },
+    {
+      "tag": "shares name with a mechanic",
+      "frequency": 5
+    },
+    {
+      "tag": "animate self",
+      "frequency": 5
+    },
+    {
+      "tag": "typal-share",
+      "frequency": 5
+    },
+    {
+      "tag": "hate-flying",
+      "frequency": 5
+    },
+    {
+      "tag": "filterland",
+      "frequency": 5
+    },
+    {
+      "tag": "repeatable rummage",
+      "frequency": 5
+    },
+    {
+      "tag": "inverted effects",
+      "frequency": 5
+    },
+    {
+      "tag": "disintegrate",
+      "frequency": 5
+    },
+    {
+      "tag": "cda-toughness",
+      "frequency": 5
+    },
+    {
+      "tag": "mix-and-match",
+      "frequency": 5
+    },
+    {
+      "tag": "wild pair power toughness 1",
+      "frequency": 4
+    },
+    {
+      "tag": "castable from graveyard",
+      "frequency": 4
+    },
+    {
+      "tag": "typal-rat",
+      "frequency": 4
+    },
+    {
+      "tag": "roll d20",
+      "frequency": 4
+    },
+    {
+      "tag": "hate-target",
+      "frequency": 4
+    },
+    {
+      "tag": "hate-typal-zombie",
+      "frequency": 4
+    },
+    {
+      "tag": "cycle-lrw-lorwyn-five",
+      "frequency": 4
+    },
+    {
+      "tag": "cycle-ltr-draft-signpost",
+      "frequency": 4
+    },
+    {
+      "tag": "unblocked trigger",
+      "frequency": 4
+    },
+    {
+      "tag": "repeated keyword",
+      "frequency": 4
+    },
+    {
+      "tag": "untapped matters-self",
+      "frequency": 4
+    },
+    {
+      "tag": "rhystic",
+      "frequency": 4
+    },
+    {
+      "tag": "quadratic",
+      "frequency": 4
+    },
+    {
+      "tag": "synergy-historic",
+      "frequency": 4
+    },
+    {
+      "tag": "hate-theft",
+      "frequency": 4
+    },
+    {
+      "tag": "changeling",
+      "frequency": 4
+    },
+    {
+      "tag": "tutor-land-forest",
+      "frequency": 4
+    },
+    {
+      "tag": "three-letter name",
+      "frequency": 4
+    },
+    {
+      "tag": "typal-dinosaur",
+      "frequency": 4
+    },
+    {
+      "tag": "typal-warrior",
+      "frequency": 4
+    },
+    {
+      "tag": "gains indestructible",
+      "frequency": 4
+    },
+    {
+      "tag": "hate-black",
+      "frequency": 4
+    },
+    {
+      "tag": "old banish templating",
+      "frequency": 4
+    },
+    {
+      "tag": "cost ignorer",
+      "frequency": 4
+    },
+    {
+      "tag": "force blocker",
+      "frequency": 4
+    },
+    {
+      "tag": "restock-self",
+      "frequency": 4
+    },
+    {
+      "tag": "auto equip",
+      "frequency": 4
+    },
+    {
+      "tag": "counterspell-instant",
+      "frequency": 4
+    },
+    {
+      "tag": "cycle-ala-shardland",
+      "frequency": 4
+    },
+    {
+      "tag": "deanimate self",
+      "frequency": 4
+    },
+    {
+      "tag": "gives flash",
+      "frequency": 4
+    },
+    {
+      "tag": "enrage",
+      "frequency": 4
+    },
+    {
+      "tag": "discard to exile",
+      "frequency": 4
+    },
+    {
+      "tag": "dnd spell",
+      "frequency": 4
+    },
+    {
+      "tag": "unique cr reference",
+      "frequency": 4
+    },
+    {
+      "tag": "reanimate-from-opponent",
+      "frequency": 4
+    },
+    {
+      "tag": "animate land",
+      "frequency": 4
+    },
+    {
+      "tag": "transform-improvement",
+      "frequency": 4
+    },
+    {
+      "tag": "cycle-jmp-thriving-land",
+      "frequency": 4
+    },
+    {
+      "tag": "unique creature type",
+      "frequency": 4
+    },
+    {
+      "tag": "cycle-jou-scry-land",
+      "frequency": 4
+    },
+    {
+      "tag": "damage multiplier",
+      "frequency": 4
+    },
+    {
+      "tag": "gives uncounterable",
+      "frequency": 4
+    },
+    {
+      "tag": "thoughtseize",
+      "frequency": 4
+    },
+    {
+      "tag": "revolt",
+      "frequency": 4
+    },
+    {
+      "tag": "cycle-ice-painland",
+      "frequency": 4
+    },
+    {
+      "tag": "cycle-bfz-tangoland",
+      "frequency": 4
+    },
+    {
+      "tag": "freeze-creature",
+      "frequency": 4
+    },
+    {
+      "tag": "self-replacement effect",
+      "frequency": 4
+    },
+    {
+      "tag": "unpreventable-damage",
+      "frequency": 4
+    },
+    {
+      "tag": "copy-land",
+      "frequency": 4
+    },
+    {
+      "tag": "enchantmentfall",
+      "frequency": 4
+    },
+    {
+      "tag": "cheat death",
+      "frequency": 4
+    },
+    {
+      "tag": "sneaky-self-trigger",
+      "frequency": 4
+    },
+    {
+      "tag": "parasitic aura",
+      "frequency": 4
+    },
+    {
+      "tag": "sacrifice outlet-nonland",
+      "frequency": 4
+    },
+    {
+      "tag": "freeze-nonland",
+      "frequency": 4
+    },
+    {
+      "tag": "reanimate-enchantment",
+      "frequency": 4
+    },
+    {
+      "tag": "hate-low-power",
+      "frequency": 4
+    },
+    {
+      "tag": "hate-planeswalker",
+      "frequency": 4
+    },
+    {
+      "tag": "tutor-creature-dragon",
+      "frequency": 4
+    },
+    {
+      "tag": "defector",
+      "frequency": 4
+    },
+    {
+      "tag": "group hug",
+      "frequency": 4
+    },
+    {
+      "tag": "regrowth-sorcery",
+      "frequency": 4
+    },
+    {
+      "tag": "move counters",
+      "frequency": 4
+    },
+    {
+      "tag": "cycle-2xm-draft-signpost",
+      "frequency": 4
+    },
+    {
+      "tag": "state trigger",
+      "frequency": 4
+    },
+    {
+      "tag": "plunder",
+      "frequency": 4
+    },
+    {
+      "tag": "pwdeck-sidekick",
+      "frequency": 4
+    },
+    {
+      "tag": "open attraction",
+      "frequency": 4
+    },
+    {
+      "tag": "temporary token",
+      "frequency": 4
+    },
+    {
+      "tag": "hate-token",
+      "frequency": 4
+    },
+    {
+      "tag": "selective group hug",
+      "frequency": 4
+    },
+    {
+      "tag": "counterspell-creature",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-isd-enemy-utilityland",
+      "frequency": 3
+    },
+    {
+      "tag": "heroic",
+      "frequency": 3
+    },
+    {
+      "tag": "gives evasion",
+      "frequency": 3
+    },
+    {
+      "tag": "synergy-desert",
+      "frequency": 3
+    },
+    {
+      "tag": "unique noncreature token",
+      "frequency": 3
+    },
+    {
+      "tag": "potentially black border",
+      "frequency": 3
+    },
+    {
+      "tag": "alternate win condition",
+      "frequency": 3
+    },
+    {
+      "tag": "unique counter",
+      "frequency": 3
+    },
+    {
+      "tag": "gives charge counter",
+      "frequency": 3
+    },
+    {
+      "tag": "typal coupling",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-soi-tapland",
+      "frequency": 3
+    },
+    {
+      "tag": "type errata lord",
+      "frequency": 3
+    },
+    {
+      "tag": "type errata hound",
+      "frequency": 3
+    },
+    {
+      "tag": "rampage",
+      "frequency": 3
+    },
+    {
+      "tag": "flicker-self",
+      "frequency": 3
+    },
+    {
+      "tag": "misnomer",
+      "frequency": 3
+    },
+    {
+      "tag": "typal-choose",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-mir-dragon",
+      "frequency": 3
+    },
+    {
+      "tag": "keyword errata flash",
+      "frequency": 3
+    },
+    {
+      "tag": "synergy-vehicle",
+      "frequency": 3
+    },
+    {
+      "tag": "burn with set's mechanic",
+      "frequency": 3
+    },
+    {
+      "tag": "extra turn",
+      "frequency": 3
+    },
+    {
+      "tag": "synergy-blocker-self",
+      "frequency": 3
+    },
+    {
+      "tag": "impulse",
+      "frequency": 3
+    },
+    {
+      "tag": "tutor-card",
+      "frequency": 3
+    },
+    {
+      "tag": "restock-to-bottom",
+      "frequency": 3
+    },
+    {
+      "tag": "threshold",
+      "frequency": 3
+    },
+    {
+      "tag": "hate-ramp",
+      "frequency": 3
+    },
+    {
+      "tag": "whirlpool",
+      "frequency": 3
+    },
+    {
+      "tag": "sacrifice outlet-planeswalker",
+      "frequency": 3
+    },
+    {
+      "tag": "free discard outlet",
+      "frequency": 3
+    },
+    {
+      "tag": "rummage",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-cns-draft-signpost",
+      "frequency": 3
+    },
+    {
+      "tag": "impulsive draw",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-som-spellbomb",
+      "frequency": 3
+    },
+    {
+      "tag": "drain life",
+      "frequency": 3
+    },
+    {
+      "tag": "removal-land",
+      "frequency": 3
+    },
+    {
+      "tag": "counterspell-sacrifice",
+      "frequency": 3
+    },
+    {
+      "tag": "hate-etb",
+      "frequency": 3
+    },
+    {
+      "tag": "prevent trigger",
+      "frequency": 3
+    },
+    {
+      "tag": "hatebird",
+      "frequency": 3
+    },
+    {
+      "tag": "special action",
+      "frequency": 3
+    },
+    {
+      "tag": "recursion-sorcery",
+      "frequency": 3
+    },
+    {
+      "tag": "recursion-instant",
+      "frequency": 3
+    },
+    {
+      "tag": "hate-plains",
+      "frequency": 3
+    },
+    {
+      "tag": "tutor-instant",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-dmu-mn-signpost",
+      "frequency": 3
+    },
+    {
+      "tag": "power doubler",
+      "frequency": 3
+    },
+    {
+      "tag": "multiplayer",
+      "frequency": 3
+    },
+    {
+      "tag": "stalking",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-dft-team-captain",
+      "frequency": 3
+    },
+    {
+      "tag": "second draw matters",
+      "frequency": 3
+    },
+    {
+      "tag": "sol land",
+      "frequency": 3
+    },
+    {
+      "tag": "gives ward",
+      "frequency": 3
+    },
+    {
+      "tag": "tutor-to-battlefield",
+      "frequency": 3
+    },
+    {
+      "tag": "sneak-land",
+      "frequency": 3
+    },
+    {
+      "tag": "hate-noncreature",
+      "frequency": 3
+    },
+    {
+      "tag": "hate-typal-non-zombie",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-voice-angel",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-m10-checkland",
+      "frequency": 3
+    },
+    {
+      "tag": "giant growth with set mechanic",
+      "frequency": 3
+    },
+    {
+      "tag": "gives deathtouch",
+      "frequency": 3
+    },
+    {
+      "tag": "power matters-self",
+      "frequency": 3
+    },
+    {
+      "tag": "ramp with set's mechanic",
+      "frequency": 3
+    },
+    {
+      "tag": "mass shrink",
+      "frequency": 3
+    },
+    {
+      "tag": "hate-typal-elf",
+      "frequency": 3
+    },
+    {
+      "tag": "card advantage",
+      "frequency": 3
+    },
+    {
+      "tag": "phasing",
+      "frequency": 3
+    },
+    {
+      "tag": "polymorph",
+      "frequency": 3
+    },
+    {
+      "tag": "the doctor",
+      "frequency": 3
+    },
+    {
+      "tag": "exile on resolution",
+      "frequency": 3
+    },
+    {
+      "tag": "pseudo-fog",
+      "frequency": 3
+    },
+    {
+      "tag": "tuck-self",
+      "frequency": 3
+    },
+    {
+      "tag": "synergy-1/1",
+      "frequency": 3
+    },
+    {
+      "tag": "ferocious",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-lrw-r-changeling",
+      "frequency": 3
+    },
+    {
+      "tag": "extract",
+      "frequency": 3
+    },
+    {
+      "tag": "tutor-land-plains",
+      "frequency": 3
+    },
+    {
+      "tag": "synergy-blocker",
+      "frequency": 3
+    },
+    {
+      "tag": "hate-green",
+      "frequency": 3
+    },
+    {
+      "tag": "noncreature french vanilla",
+      "frequency": 3
+    },
+    {
+      "tag": "theft-mass",
+      "frequency": 3
+    },
+    {
+      "tag": "typal-wall",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-m11-titan",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-apc-painland",
+      "frequency": 3
+    },
+    {
+      "tag": "landhome",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-bng-scry-land",
+      "frequency": 3
+    },
+    {
+      "tag": "counter preservation-self",
+      "frequency": 3
+    },
+    {
+      "tag": "donate",
+      "frequency": 3
+    },
+    {
+      "tag": "fog",
+      "frequency": 3
+    },
+    {
+      "tag": "anagram",
+      "frequency": 3
+    },
+    {
+      "tag": "gains vigilance",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-zen-refugeland",
+      "frequency": 3
+    },
+    {
+      "tag": "quick enchant",
+      "frequency": 3
+    },
+    {
+      "tag": "creates token of a card",
+      "frequency": 3
+    },
+    {
+      "tag": "tutor-land-basic-forest",
+      "frequency": 3
+    },
+    {
+      "tag": "type errata name self",
+      "frequency": 3
+    },
+    {
+      "tag": "french vanilla equipment",
+      "frequency": 3
+    },
+    {
+      "tag": "potentially free",
+      "frequency": 3
+    },
+    {
+      "tag": "monarch matters",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-mor-c-changeling",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-soi-reveal-land",
+      "frequency": 3
+    },
+    {
+      "tag": "synergy-scry",
+      "frequency": 3
+    },
+    {
+      "tag": "birthing pod",
+      "frequency": 3
+    },
+    {
+      "tag": "removal-sacrifice",
+      "frequency": 3
+    },
+    {
+      "tag": "pridemate",
+      "frequency": 3
+    },
+    {
+      "tag": "regrowth-instant",
+      "frequency": 3
+    },
+    {
+      "tag": "reanimate-cast",
+      "frequency": 3
+    },
+    {
+      "tag": "deal with the devil",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-ody-ally-filterland",
+      "frequency": 3
+    },
+    {
+      "tag": "creature type phantasm",
+      "frequency": 3
+    },
+    {
+      "tag": "damage prevention-creature",
+      "frequency": 3
+    },
+    {
+      "tag": "hate-first-strike",
+      "frequency": 3
+    },
+    {
+      "tag": "tutor-land-swamp",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-guildgate",
+      "frequency": 3
+    },
+    {
+      "tag": "hate-nonbasic-land",
+      "frequency": 3
+    },
+    {
+      "tag": "gains menace",
+      "frequency": 3
+    },
+    {
+      "tag": "inspired",
+      "frequency": 3
+    },
+    {
+      "tag": "threaten",
+      "frequency": 3
+    },
+    {
+      "tag": "synergy-arcane",
+      "frequency": 3
+    },
+    {
+      "tag": "abyss",
+      "frequency": 3
+    },
+    {
+      "tag": "morbid",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-1mv-tutor",
+      "frequency": 3
+    },
+    {
+      "tag": "gives swampwalk",
+      "frequency": 3
+    },
+    {
+      "tag": "tmp-storyline-in-cards",
+      "frequency": 3
+    },
+    {
+      "tag": "creatureland",
+      "frequency": 3
+    },
+    {
+      "tag": "delve",
+      "frequency": 3
+    },
+    {
+      "tag": "cycle-war-gatewatch",
+      "frequency": 3
+    },
+    {
+      "tag": "counterspell-reusable",
+      "frequency": 3
+    },
+    {
+      "tag": "tutors by name",
+      "frequency": 2
+    },
+    {
+      "tag": "type errata specific bird",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-thb-omen",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-eve-c-retrace",
+      "frequency": 2
+    },
+    {
+      "tag": "impulse-to-top",
+      "frequency": 2
+    },
+    {
+      "tag": "alternate-cost-sacrifice",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-dtk-khan",
+      "frequency": 2
+    },
+    {
+      "tag": "unique evasion",
+      "frequency": 2
+    },
+    {
+      "tag": "typal-multi-sea-monster",
+      "frequency": 2
+    },
+    {
+      "tag": "double strike counter",
+      "frequency": 2
+    },
+    {
+      "tag": "removal-enchantment",
+      "frequency": 2
+    },
+    {
+      "tag": "synergy-explore",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-tmp-enemy-backward-hate",
+      "frequency": 2
+    },
+    {
+      "tag": "turns off defender",
+      "frequency": 2
+    },
+    {
+      "tag": "synergy-modified",
+      "frequency": 2
+    },
+    {
+      "tag": "turns off defender-self",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-ogw-tapland",
+      "frequency": 2
+    },
+    {
+      "tag": "synergy-shrine",
+      "frequency": 2
+    },
+    {
+      "tag": "remove from combat",
+      "frequency": 2
+    },
+    {
+      "tag": "second spell matters",
+      "frequency": 2
+    },
+    {
+      "tag": "tormenting voice",
+      "frequency": 2
+    },
+    {
+      "tag": "gives plot",
+      "frequency": 2
+    },
+    {
+      "tag": "text change",
+      "frequency": 2
+    },
+    {
+      "tag": "hurricane",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-fin-landcycler",
+      "frequency": 2
+    },
+    {
+      "tag": "counter fuel-other",
+      "frequency": 2
+    },
+    {
+      "tag": "synergy-suspend",
+      "frequency": 2
+    },
+    {
+      "tag": "pillowfort",
+      "frequency": 2
+    },
+    {
+      "tag": "retaliate to damage",
+      "frequency": 2
+    },
+    {
+      "tag": "synergy-sticker",
+      "frequency": 2
+    },
+    {
+      "tag": "enchantment engine",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-block-bfz-creatureland",
+      "frequency": 2
+    },
+    {
+      "tag": "alternate loss condition",
+      "frequency": 2
+    },
+    {
+      "tag": "synergy-graveyard-cast",
+      "frequency": 2
+    },
+    {
+      "tag": "reanimate matters",
+      "frequency": 2
+    },
+    {
+      "tag": "outlast mentor",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-block-rav-mnn",
+      "frequency": 2
+    },
+    {
+      "tag": "force draw",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-blb-season",
+      "frequency": 2
+    },
+    {
+      "tag": "painland",
+      "frequency": 2
+    },
+    {
+      "tag": "nonfunctional reminder counter",
+      "frequency": 2
+    },
+    {
+      "tag": "gives exalted",
+      "frequency": 2
+    },
+    {
+      "tag": "opponent sacrifices",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-khm-pathway",
+      "frequency": 2
+    },
+    {
+      "tag": "typal-cat",
+      "frequency": 2
+    },
+    {
+      "tag": "wish",
+      "frequency": 2
+    },
+    {
+      "tag": "discard outlet-creature",
+      "frequency": 2
+    },
+    {
+      "tag": "tutor-creature-wizard",
+      "frequency": 2
+    },
+    {
+      "tag": "affects dice roll",
+      "frequency": 2
+    },
+    {
+      "tag": "tax attack",
+      "frequency": 2
+    },
+    {
+      "tag": "counterspell-sorcery",
+      "frequency": 2
+    },
+    {
+      "tag": "devour",
+      "frequency": 2
+    },
+    {
+      "tag": "magecraft",
+      "frequency": 2
+    },
+    {
+      "tag": "theft",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-mkm-r-2c-noncreature",
+      "frequency": 2
+    },
+    {
+      "tag": "consult",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-mm2-draft-signpost",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-mir-x-allied-spell",
+      "frequency": 2
+    },
+    {
+      "tag": "overrun",
+      "frequency": 2
+    },
+    {
+      "tag": "discard outlet-last drawn",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-ths-nymph",
+      "frequency": 2
+    },
+    {
+      "tag": "brainstorm",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-apc-penumbra-vertical",
+      "frequency": 2
+    },
+    {
+      "tag": "exile with tax",
+      "frequency": 2
+    },
+    {
+      "tag": "daunt",
+      "frequency": 2
+    },
+    {
+      "tag": "mirrored knight",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-mir-diamond",
+      "frequency": 2
+    },
+    {
+      "tag": "tunneling",
+      "frequency": 2
+    },
+    {
+      "tag": "gives player hexproof",
+      "frequency": 2
+    },
+    {
+      "tag": "typal-zombie",
+      "frequency": 2
+    },
+    {
+      "tag": "counter increaser",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-tmp-napland",
+      "frequency": 2
+    },
+    {
+      "tag": "impulse-instant",
+      "frequency": 2
+    },
+    {
+      "tag": "synergy-activated-ability",
+      "frequency": 2
+    },
+    {
+      "tag": "life-total-matters-self",
+      "frequency": 2
+    },
+    {
+      "tag": "un-keyword",
+      "frequency": 2
+    },
+    {
+      "tag": "deprecated p/t counter",
+      "frequency": 2
+    },
+    {
+      "tag": "typal-lupine",
+      "frequency": 2
+    },
+    {
+      "tag": "sneak-creature",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-thb-demigod",
+      "frequency": 2
+    },
+    {
+      "tag": "gains protection",
+      "frequency": 2
+    },
+    {
+      "tag": "mechanical foreshadow",
+      "frequency": 2
+    },
+    {
+      "tag": "circle of protection",
+      "frequency": 2
+    },
+    {
+      "tag": "peek-library",
+      "frequency": 2
+    },
+    {
+      "tag": "hate-activation",
+      "frequency": 2
+    },
+    {
+      "tag": "graveyard order matters",
+      "frequency": 2
+    },
+    {
+      "tag": "type errata specific elemental",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-block-rtr-u-hybrid",
+      "frequency": 2
+    },
+    {
+      "tag": "unique p/t",
+      "frequency": 2
+    },
+    {
+      "tag": "off-turn casting matters",
+      "frequency": 2
+    },
+    {
+      "tag": "synergy-poison",
+      "frequency": 2
+    },
+    {
+      "tag": "tapland",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-tmp-medallion",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-ons-fetchland",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-iko-keyword-bonder",
+      "frequency": 2
+    },
+    {
+      "tag": "maro-sorcerer",
+      "frequency": 2
+    },
+    {
+      "tag": "mimic",
+      "frequency": 2
+    },
+    {
+      "tag": "y value",
+      "frequency": 2
+    },
+    {
+      "tag": "typal-eldrazi-spawn",
+      "frequency": 2
+    },
+    {
+      "tag": "wind drake with set's mechanic",
+      "frequency": 2
+    },
+    {
+      "tag": "any player ability",
+      "frequency": 2
+    },
+    {
+      "tag": "unique enchant target",
+      "frequency": 2
+    },
+    {
+      "tag": "enchantmentize",
+      "frequency": 2
+    },
+    {
+      "tag": "breaks-ktk-morph-rule",
+      "frequency": 2
+    },
+    {
+      "tag": "synergy-vote",
+      "frequency": 2
+    },
+    {
+      "tag": "cast trigger-other",
+      "frequency": 2
+    },
+    {
+      "tag": "tutor-to-exile",
+      "frequency": 2
+    },
+    {
+      "tag": "voting",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-som-fastland",
+      "frequency": 2
+    },
+    {
+      "tag": "sneak",
+      "frequency": 2
+    },
+    {
+      "tag": "gives suspend",
+      "frequency": 2
+    },
+    {
+      "tag": "nevermore",
+      "frequency": 2
+    },
+    {
+      "tag": "gifts ungiven",
+      "frequency": 2
+    },
+    {
+      "tag": "typal-god",
+      "frequency": 2
+    },
+    {
+      "tag": "tutor-land-island",
+      "frequency": 2
+    },
+    {
+      "tag": "reanimate-land",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-cns-pp-counter-recycler",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-dual-cycling-land",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-ala-obelisk",
+      "frequency": 2
+    },
+    {
+      "tag": "life-and-death-trigger-self",
+      "frequency": 2
+    },
+    {
+      "tag": "energy generator",
+      "frequency": 2
+    },
+    {
+      "tag": "crewless vehicle",
+      "frequency": 2
+    },
+    {
+      "tag": "damage redirection",
+      "frequency": 2
+    },
+    {
+      "tag": "tapland with set's mechanic",
+      "frequency": 2
+    },
+    {
+      "tag": "tome",
+      "frequency": 2
+    },
+    {
+      "tag": "prevent extra turns",
+      "frequency": 2
+    },
+    {
+      "tag": "synergy-exile-cast",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-ulg-perpetual-aura",
+      "frequency": 2
+    },
+    {
+      "tag": "repeatable impulsive draw",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-dom-draft-signpost",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-dgm-draft-signpost",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-hou-power-eternalizer",
+      "frequency": 2
+    },
+    {
+      "tag": "hate-flash",
+      "frequency": 2
+    },
+    {
+      "tag": "alternate-equip-cost",
+      "frequency": 2
+    },
+    {
+      "tag": "lifegain increaser",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-shm-reflection",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-ema-draft-signpost",
+      "frequency": 2
+    },
+    {
+      "tag": "punisher",
+      "frequency": 2
+    },
+    {
+      "tag": "typal-assassin",
+      "frequency": 2
+    },
+    {
+      "tag": "hate-storm",
+      "frequency": 2
+    },
+    {
+      "tag": "top matters",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-mid-alt-transform",
+      "frequency": 2
+    },
+    {
+      "tag": "cr 107.3f x card",
+      "frequency": 2
+    },
+    {
+      "tag": "synergy-trample",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-war-draft-signpost",
+      "frequency": 2
+    },
+    {
+      "tag": "typal-hamster",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-sok-shinen",
+      "frequency": 2
+    },
+    {
+      "tag": "wheel-one-sided",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-usg-2-cycling-land",
+      "frequency": 2
+    },
+    {
+      "tag": "afflict",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-shm-twobrid-spell",
+      "frequency": 2
+    },
+    {
+      "tag": "reanimate-aura",
+      "frequency": 2
+    },
+    {
+      "tag": "ritual",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-wwk-creatureland",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-c20-free-spell",
+      "frequency": 2
+    },
+    {
+      "tag": "restock-all",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-wwk-landfall-instant",
+      "frequency": 2
+    },
+    {
+      "tag": "synergy-planeswalker",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-ala-c-1-drop",
+      "frequency": 2
+    },
+    {
+      "tag": "change target",
+      "frequency": 2
+    },
+    {
+      "tag": "typal-druid",
+      "frequency": 2
+    },
+    {
+      "tag": "tutor-creature-goblin",
+      "frequency": 2
+    },
+    {
+      "tag": "staple with set's mechanic",
+      "frequency": 2
+    },
+    {
+      "tag": "fact or fiction",
+      "frequency": 2
+    },
+    {
+      "tag": "landfall other",
+      "frequency": 2
+    },
+    {
+      "tag": "counter fuel-oil",
+      "frequency": 2
+    },
+    {
+      "tag": "hate-damaged",
+      "frequency": 2
+    },
+    {
+      "tag": "blood moon effect",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-shm-liege",
+      "frequency": 2
+    },
+    {
+      "tag": "leaves graveyard trigger",
+      "frequency": 2
+    },
+    {
+      "tag": "draft matters",
+      "frequency": 2
+    },
+    {
+      "tag": "tokenlink",
+      "frequency": 2
+    },
+    {
+      "tag": "impact effect",
+      "frequency": 2
+    },
+    {
+      "tag": "inscryption achievement",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-lea-circle-protection",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-w16-u",
+      "frequency": 2
+    },
+    {
+      "tag": "twiddle",
+      "frequency": 2
+    },
+    {
+      "tag": "untapper-nonland",
+      "frequency": 2
+    },
+    {
+      "tag": "absorb",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-lci-hidden-land",
+      "frequency": 2
+    },
+    {
+      "tag": "synergy-tapped",
+      "frequency": 2
+    },
+    {
+      "tag": "high x matters",
+      "frequency": 2
+    },
+    {
+      "tag": "worship",
+      "frequency": 2
+    },
+    {
+      "tag": "typal-demon",
+      "frequency": 2
+    },
+    {
+      "tag": "typal-squirrel",
+      "frequency": 2
+    },
+    {
+      "tag": "tutor-from-opponent",
+      "frequency": 2
+    },
+    {
+      "tag": "vanilla equipment",
+      "frequency": 2
+    },
+    {
+      "tag": "type addition noble",
+      "frequency": 2
+    },
+    {
+      "tag": "synergy-level-up",
+      "frequency": 2
+    },
+    {
+      "tag": "demilich effect",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-mid-slowland",
+      "frequency": 2
+    },
+    {
+      "tag": "gives changeling",
+      "frequency": 2
+    },
+    {
+      "tag": "unnoted tracked information",
+      "frequency": 2
+    },
+    {
+      "tag": "synergy-pw-nissa",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-plc-rescue-vertical",
+      "frequency": 2
+    },
+    {
+      "tag": "dnd book",
+      "frequency": 2
+    },
+    {
+      "tag": "madness",
+      "frequency": 2
+    },
+    {
+      "tag": "lockdown-land",
+      "frequency": 2
+    },
+    {
+      "tag": "gains shroud",
+      "frequency": 2
+    },
+    {
+      "tag": "time matters",
+      "frequency": 2
+    },
+    {
+      "tag": "just shuffle",
+      "frequency": 2
+    },
+    {
+      "tag": "regrowth-planeswalker",
+      "frequency": 2
+    },
+    {
+      "tag": "remove counters-other",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-ths-draft-signpost",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-cn2-draft-signpost",
+      "frequency": 2
+    },
+    {
+      "tag": "hate-typal-choose",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-ema-tutor",
+      "frequency": 2
+    },
+    {
+      "tag": "bushido",
+      "frequency": 2
+    },
+    {
+      "tag": "typal-bird",
+      "frequency": 2
+    },
+    {
+      "tag": "hate-sorcery",
+      "frequency": 2
+    },
+    {
+      "tag": "pile",
+      "frequency": 2
+    },
+    {
+      "tag": "copy-ability",
+      "frequency": 2
+    },
+    {
+      "tag": "consult-onto-battlefield",
+      "frequency": 2
+    },
+    {
+      "tag": "speech matters",
+      "frequency": 2
+    },
+    {
+      "tag": "tapped matters-self",
+      "frequency": 2
+    },
+    {
+      "tag": "typal-angel",
+      "frequency": 2
+    },
+    {
+      "tag": "metalcraft",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-5dn-beacon",
+      "frequency": 2
+    },
+    {
+      "tag": "persist",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-fut-pact",
+      "frequency": 2
+    },
+    {
+      "tag": "delayed payment",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-fem-sacland",
+      "frequency": 2
+    },
+    {
+      "tag": "synergy-name-sticker",
+      "frequency": 2
+    },
+    {
+      "tag": "poison opponents",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-m21-garruk-vertical",
+      "frequency": 2
+    },
+    {
+      "tag": "counterspell-ability",
+      "frequency": 2
+    },
+    {
+      "tag": "becomes changeling",
+      "frequency": 2
+    },
+    {
+      "tag": "cycle-ust-functional-variant",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-tangoland",
+      "frequency": 1
+    },
+    {
+      "tag": "unique-type-exclusion",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-lrw-typal-cantrip",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-bok-kami-patron",
+      "frequency": 1
+    },
+    {
+      "tag": "gives poisonous",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-fut-sliver",
+      "frequency": 1
+    },
+    {
+      "tag": "slith ability",
+      "frequency": 1
+    },
+    {
+      "tag": "mm counters matter",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-xln-draft-signpost",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-pirate",
+      "frequency": 1
+    },
+    {
+      "tag": "gives keyword counter",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-hou-deserts-matter",
+      "frequency": 1
+    },
+    {
+      "tag": "soothsaying",
+      "frequency": 1
+    },
+    {
+      "tag": "moxen",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-mmq-ability-wall",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-dka-m-monster",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-non-share",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-dka-enemy-flashback",
+      "frequency": 1
+    },
+    {
+      "tag": "impulse-enchantment-shrine",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-cmr-m-sorcery",
+      "frequency": 1
+    },
+    {
+      "tag": "humble",
+      "frequency": 1
+    },
+    {
+      "tag": "gains first strike",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ktk-enemy-ability",
+      "frequency": 1
+    },
+    {
+      "tag": "pillage effect",
+      "frequency": 1
+    },
+    {
+      "tag": "leyline",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-snc-u-signpost-creature",
+      "frequency": 1
+    },
+    {
+      "tag": "hate-mountain",
+      "frequency": 1
+    },
+    {
+      "tag": "gives affinity",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ulg-creatureland",
+      "frequency": 1
+    },
+    {
+      "tag": "catch-22",
+      "frequency": 1
+    },
+    {
+      "tag": "counter fuel-time",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-rogue",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-tmt-r-hybrid",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-tmt-team-up",
+      "frequency": 1
+    },
+    {
+      "tag": "prevent put counter",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-rav-guildmaster",
+      "frequency": 1
+    },
+    {
+      "tag": "mutiny",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-eoe-r-mono-spacecraft",
+      "frequency": 1
+    },
+    {
+      "tag": "theft-nonland",
+      "frequency": 1
+    },
+    {
+      "tag": "regrowth",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-gn3-mythic",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-mount",
+      "frequency": 1
+    },
+    {
+      "tag": "catalog",
+      "frequency": 1
+    },
+    {
+      "tag": "gives mountainwalk",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ody-threshold-painland",
+      "frequency": 1
+    },
+    {
+      "tag": "shakedown",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-tsp-u-sliver",
+      "frequency": 1
+    },
+    {
+      "tag": "radiate",
+      "frequency": 1
+    },
+    {
+      "tag": "perpetual aura",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-haste",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ody-restock-creature",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-tmp-pain-tapland",
+      "frequency": 1
+    },
+    {
+      "tag": "neo-regenerate",
+      "frequency": 1
+    },
+    {
+      "tag": "creature type fungusaur",
+      "frequency": 1
+    },
+    {
+      "tag": "type errata dinosaur",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-hbg-draft-signpost",
+      "frequency": 1
+    },
+    {
+      "tag": "protects-enchantment",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-stx-c-hybrid-spell",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-aer-draft-signpost",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-akh-dual-cycling-land",
+      "frequency": 1
+    },
+    {
+      "tag": "hate-typal-wall",
+      "frequency": 1
+    },
+    {
+      "tag": "hate-typal-robot",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-scg-5m-landcycler",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-tla-c-tapland",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ecl-r-dfc",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-iko-ultimatum",
+      "frequency": 1
+    },
+    {
+      "tag": "gives ingest",
+      "frequency": 1
+    },
+    {
+      "tag": "gives stalking",
+      "frequency": 1
+    },
+    {
+      "tag": "gives castable from exile",
+      "frequency": 1
+    },
+    {
+      "tag": "type errata tiger",
+      "frequency": 1
+    },
+    {
+      "tag": "dehydration with set mechanic",
+      "frequency": 1
+    },
+    {
+      "tag": "type errata specific snake",
+      "frequency": 1
+    },
+    {
+      "tag": "exhaust",
+      "frequency": 1
+    },
+    {
+      "tag": "impulse-enchantment",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-clb-u-d20",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-clu-guild-rare",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-w17-r-creature",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-mrd-golem",
+      "frequency": 1
+    },
+    {
+      "tag": "tutor-creature-mount",
+      "frequency": 1
+    },
+    {
+      "tag": "gives high flying",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-m19-precon-planeswalker",
+      "frequency": 1
+    },
+    {
+      "tag": "reanimate-nonland",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-lrw-typal-land",
+      "frequency": 1
+    },
+    {
+      "tag": "wedgeland",
+      "frequency": 1
+    },
+    {
+      "tag": "no-creature-type",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-m14-r-sliver",
+      "frequency": 1
+    },
+    {
+      "tag": "pseudo-haste",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-unh-c-gotcha",
+      "frequency": 1
+    },
+    {
+      "tag": "cost-reducer-enchantment",
+      "frequency": 1
+    },
+    {
+      "tag": "clash-like",
+      "frequency": 1
+    },
+    {
+      "tag": "heckbent",
+      "frequency": 1
+    },
+    {
+      "tag": "tutor-enchantment",
+      "frequency": 1
+    },
+    {
+      "tag": "sneak from library",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ecl-typal-convoke",
+      "frequency": 1
+    },
+    {
+      "tag": "tutor-enchantment-aura",
+      "frequency": 1
+    },
+    {
+      "tag": "hate-named",
+      "frequency": 1
+    },
+    {
+      "tag": "faux targeting",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-soi-draft-signpost",
+      "frequency": 1
+    },
+    {
+      "tag": "virtual proliferate",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-inv-dual-tapland",
+      "frequency": 1
+    },
+    {
+      "tag": "soul warden ability",
+      "frequency": 1
+    },
+    {
+      "tag": "gives fear",
+      "frequency": 1
+    },
+    {
+      "tag": "remove counters-you",
+      "frequency": 1
+    },
+    {
+      "tag": "hate-battle",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-exert",
+      "frequency": 1
+    },
+    {
+      "tag": "tutor-land-gate",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-gate",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-flash",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-tdm-spirit-dragon",
+      "frequency": 1
+    },
+    {
+      "tag": "super-pridemate",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-halfling",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-pw-lukka",
+      "frequency": 1
+    },
+    {
+      "tag": "adds name",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-suspect",
+      "frequency": 1
+    },
+    {
+      "tag": "dexterity",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-orc",
+      "frequency": 1
+    },
+    {
+      "tag": "remove-from-stack",
+      "frequency": 1
+    },
+    {
+      "tag": "exiletouch",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-s99-vanilla-1-drop",
+      "frequency": 1
+    },
+    {
+      "tag": "hate-banding",
+      "frequency": 1
+    },
+    {
+      "tag": "removes banding",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-eld-r-adventurer",
+      "frequency": 1
+    },
+    {
+      "tag": "eldrazi titan",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-shm-filterland",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-villainous-choice",
+      "frequency": 1
+    },
+    {
+      "tag": "fling",
+      "frequency": 1
+    },
+    {
+      "tag": "fling-self",
+      "frequency": 1
+    },
+    {
+      "tag": "theft-cast",
+      "frequency": 1
+    },
+    {
+      "tag": "ransom",
+      "frequency": 1
+    },
+    {
+      "tag": "secretly choose",
+      "frequency": 1
+    },
+    {
+      "tag": "block additional",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-usg-enemy-forward-hate",
+      "frequency": 1
+    },
+    {
+      "tag": "animate enchantment",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-5dn-bringer",
+      "frequency": 1
+    },
+    {
+      "tag": "affinity for creatures",
+      "frequency": 1
+    },
+    {
+      "tag": "hate-wide",
+      "frequency": 1
+    },
+    {
+      "tag": "reminder text matters",
+      "frequency": 1
+    },
+    {
+      "tag": "keyword errata surveil",
+      "frequency": 1
+    },
+    {
+      "tag": "opponent-discard matters",
+      "frequency": 1
+    },
+    {
+      "tag": "theft-planeswalker",
+      "frequency": 1
+    },
+    {
+      "tag": "auto buyback",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-dst-pulse",
+      "frequency": 1
+    },
+    {
+      "tag": "battalion",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-plc-primeval-dragon",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-c18-lieutenant",
+      "frequency": 1
+    },
+    {
+      "tag": "you make the card",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-barbarian",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-lgn-u-sliver",
+      "frequency": 1
+    },
+    {
+      "tag": "extra land",
+      "frequency": 1
+    },
+    {
+      "tag": "theft-equipment",
+      "frequency": 1
+    },
+    {
+      "tag": "discard outlet-random",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-block-rtr-guildmaster",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-bobblehead",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-zen-c-kicker",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-planet",
+      "frequency": 1
+    },
+    {
+      "tag": "removal-noncreature",
+      "frequency": 1
+    },
+    {
+      "tag": "grim return",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-stx-dean",
+      "frequency": 1
+    },
+    {
+      "tag": "cost-reducer-instant-sorcery",
+      "frequency": 1
+    },
+    {
+      "tag": "exo-storyline-in-cards",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-stx-hhhh",
+      "frequency": 1
+    },
+    {
+      "tag": "create-land-tokens",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-c16-undaunted-spell",
+      "frequency": 1
+    },
+    {
+      "tag": "tutor-aura-curse",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-curse",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-shm-untap",
+      "frequency": 1
+    },
+    {
+      "tag": "gains mm counters",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-blb-c-offspring",
+      "frequency": 1
+    },
+    {
+      "tag": "bombard",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-cmm-draft-signpost",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-ability-sticker",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-convoke",
+      "frequency": 1
+    },
+    {
+      "tag": "paradox",
+      "frequency": 1
+    },
+    {
+      "tag": "hate-typal-dalek",
+      "frequency": 1
+    },
+    {
+      "tag": "mill-exile",
+      "frequency": 1
+    },
+    {
+      "tag": "tutor-land-basic-plains",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-samurai",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ons-typal-land",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-inv-primeval-dragon",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-tmp-enemy-forward-hate",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-blb-hybrid",
+      "frequency": 1
+    },
+    {
+      "tag": "gives triple strike",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-bfz-blighted-land",
+      "frequency": 1
+    },
+    {
+      "tag": "gives prowess",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-vigilance",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-frf-runemark",
+      "frequency": 1
+    },
+    {
+      "tag": "mill-each",
+      "frequency": 1
+    },
+    {
+      "tag": "deanimate",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-avr-r-miracle",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-iko-u-mutate",
+      "frequency": 1
+    },
+    {
+      "tag": "tutor-to-graveyard",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-fut-augur",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-lrw-r-champion",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-c13-curse",
+      "frequency": 1
+    },
+    {
+      "tag": "gives fake flying",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-mir-enemy-backward-hate",
+      "frequency": 1
+    },
+    {
+      "tag": "game name",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-soi-x-madness-sorcery",
+      "frequency": 1
+    },
+    {
+      "tag": "tutor-creature-reach",
+      "frequency": 1
+    },
+    {
+      "tag": "tutor-creature-deathtouch",
+      "frequency": 1
+    },
+    {
+      "tag": "lure",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-food",
+      "frequency": 1
+    },
+    {
+      "tag": "gains defender",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-mh2-bridge",
+      "frequency": 1
+    },
+    {
+      "tag": "external prop",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-tor-tainted-land",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-extraplanar-praetor",
+      "frequency": 1
+    },
+    {
+      "tag": "type errata falcon",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-m20-precon-u",
+      "frequency": 1
+    },
+    {
+      "tag": "conjure-creature",
+      "frequency": 1
+    },
+    {
+      "tag": "digital to paper",
+      "frequency": 1
+    },
+    {
+      "tag": "low x matters",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-tmt-michelangelo-vert",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-zen-namedland",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-jou-dictate",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-rvr-c-hybrid",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-rna-hybrid-creature",
+      "frequency": 1
+    },
+    {
+      "tag": "reanimate-from-any",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ala-resounding-spell",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-inv-leech",
+      "frequency": 1
+    },
+    {
+      "tag": "improvise",
+      "frequency": 1
+    },
+    {
+      "tag": "titan immortality",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-assembly-worker",
+      "frequency": 1
+    },
+    {
+      "tag": "gives melee",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-inv-dragon-attendant",
+      "frequency": 1
+    },
+    {
+      "tag": "wheel-symmetrical",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-saproling",
+      "frequency": 1
+    },
+    {
+      "tag": "hate-creatureland",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-khm-m-foretell-spell",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-hou-torment",
+      "frequency": 1
+    },
+    {
+      "tag": "creature type ship",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-cascade",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-plc-u-vanishing-creature",
+      "frequency": 1
+    },
+    {
+      "tag": "enters-and-leaves-trigger-self",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-block-rav-r-hybrid",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-otj-join-up",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-wwk-enemy-hate-trap",
+      "frequency": 1
+    },
+    {
+      "tag": "removes first strike",
+      "frequency": 1
+    },
+    {
+      "tag": "removes landwalk",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-m12-phantasmal",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-lrw-token-fuel",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-snc-hideaway",
+      "frequency": 1
+    },
+    {
+      "tag": "gives defender",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-wwk-zendikon",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-bok-m-sac-spirit",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-mkm-u-gold-noncreature",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-iko-mythos",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-pcy-field-aura",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-m21-precon-c",
+      "frequency": 1
+    },
+    {
+      "tag": "expertise",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-m12-mage",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-tdm-monument",
+      "frequency": 1
+    },
+    {
+      "tag": "type removal cat rakshasa",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ktk-r-2mno-creature",
+      "frequency": 1
+    },
+    {
+      "tag": "undergrowth-all",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-pcy-avatar",
+      "frequency": 1
+    },
+    {
+      "tag": "strive",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-clb-invoker",
+      "frequency": 1
+    },
+    {
+      "tag": "rescue-nonland",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-tmp-u-sliver",
+      "frequency": 1
+    },
+    {
+      "tag": "ante matters",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-infect",
+      "frequency": 1
+    },
+    {
+      "tag": "removes flying",
+      "frequency": 1
+    },
+    {
+      "tag": "creature type monster",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-pentavite",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-blb-draft-signpost",
+      "frequency": 1
+    },
+    {
+      "tag": "invitational card",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-nph-exarch",
+      "frequency": 1
+    },
+    {
+      "tag": "cost-reducer-activated-ability",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-target",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-stx-student",
+      "frequency": 1
+    },
+    {
+      "tag": "monstrosity",
+      "frequency": 1
+    },
+    {
+      "tag": "removes hexproof",
+      "frequency": 1
+    },
+    {
+      "tag": "hate-typal-skeleton",
+      "frequency": 1
+    },
+    {
+      "tag": "gains infect",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-lrw-typal-revealer",
+      "frequency": 1
+    },
+    {
+      "tag": "eternalize",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-fut-vanilla",
+      "frequency": 1
+    },
+    {
+      "tag": "deathtouch to planeswalkers",
+      "frequency": 1
+    },
+    {
+      "tag": "skip untap step",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-mmq-c-spellshaper",
+      "frequency": 1
+    },
+    {
+      "tag": "discount-self",
+      "frequency": 1
+    },
+    {
+      "tag": "save from death",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-inv-allied-2-2",
+      "frequency": 1
+    },
+    {
+      "tag": "tutor-interaction",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-creatureland",
+      "frequency": 1
+    },
+    {
+      "tag": "class type only",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-dmu-dual-land",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-mrd-spellbomb",
+      "frequency": 1
+    },
+    {
+      "tag": "conditional aura",
+      "frequency": 1
+    },
+    {
+      "tag": "impulse-nonland",
+      "frequency": 1
+    },
+    {
+      "tag": "genesis effect",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-mir-enemy-fw-protection",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-mir-fetchland",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-tyranid",
+      "frequency": 1
+    },
+    {
+      "tag": "recycle",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-cardinal-paladin",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-spm-saga",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-snow",
+      "frequency": 1
+    },
+    {
+      "tag": "hunger reanimation",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ala-esper-capsule",
+      "frequency": 1
+    },
+    {
+      "tag": "ingest",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-shm-witch",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-sok-maro-spell",
+      "frequency": 1
+    },
+    {
+      "tag": "counter fuel-keyword",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-advisor",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-sok-onna",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ecl-c-hybrid-changeling",
+      "frequency": 1
+    },
+    {
+      "tag": "trumpet blast",
+      "frequency": 1
+    },
+    {
+      "tag": "renown",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-frog",
+      "frequency": 1
+    },
+    {
+      "tag": "type errata specific fish",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-mutant",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-grn-r-split",
+      "frequency": 1
+    },
+    {
+      "tag": "self life loss matters",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-m19-draft-signpost",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ody-retriever",
+      "frequency": 1
+    },
+    {
+      "tag": "regrowth-enchantment",
+      "frequency": 1
+    },
+    {
+      "tag": "guess",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-boast",
+      "frequency": 1
+    },
+    {
+      "tag": "drain strength",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-inv-c-ally-kicker-spell",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-donkey",
+      "frequency": 1
+    },
+    {
+      "tag": "buttfight",
+      "frequency": 1
+    },
+    {
+      "tag": "tutor-creature-demon",
+      "frequency": 1
+    },
+    {
+      "tag": "counts as a type",
+      "frequency": 1
+    },
+    {
+      "tag": "restock-creature",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-akh-draft-signpost",
+      "frequency": 1
+    },
+    {
+      "tag": "affinity for attacking",
+      "frequency": 1
+    },
+    {
+      "tag": "pseudo-hexproof",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-bro-draft-signpost",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-soldier",
+      "frequency": 1
+    },
+    {
+      "tag": "type errata specific horse",
+      "frequency": 1
+    },
+    {
+      "tag": "hate-equipment",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-dice",
+      "frequency": 1
+    },
+    {
+      "tag": "dice roll",
+      "frequency": 1
+    },
+    {
+      "tag": "theft-enchantment",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-apc-phyrexian-vertical",
+      "frequency": 1
+    },
+    {
+      "tag": "repeatable blood",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-rav-forward-boost",
+      "frequency": 1
+    },
+    {
+      "tag": "threaten with set's mechanic",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-block-rtr-u-guild-kw",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-shade",
+      "frequency": 1
+    },
+    {
+      "tag": "theft-land",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-nem-recruiter",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-dtk-draft-signpost",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ody-lhurgoyf",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ktk-u-2mno-creature",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ulg-sleeping-enchantment",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-jud-wish",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-worm",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-leech",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-basic-snow-land",
+      "frequency": 1
+    },
+    {
+      "tag": "equipless equipment",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-dtk-monument",
+      "frequency": 1
+    },
+    {
+      "tag": "tutor-sorcery",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-m21-basri-vertical",
+      "frequency": 1
+    },
+    {
+      "tag": "etb-untapper",
+      "frequency": 1
+    },
+    {
+      "tag": "repeatable landers",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-cycling",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-rebel",
+      "frequency": 1
+    },
+    {
+      "tag": "tutor-creature-rebel",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-fin-crystal",
+      "frequency": 1
+    },
+    {
+      "tag": "type errata naga",
+      "frequency": 1
+    },
+    {
+      "tag": "type errata specific zombie",
+      "frequency": 1
+    },
+    {
+      "tag": "fetchland",
+      "frequency": 1
+    },
+    {
+      "tag": "theft-spell",
+      "frequency": 1
+    },
+    {
+      "tag": "old lifelink",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-hou-desert-painland",
+      "frequency": 1
+    },
+    {
+      "tag": "abrade",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-stx-reveal-land",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-pls-lair",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-khm-snow-tapland",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ltr-landcycler",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-jou-minor-god",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-m15-sliver",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ori-same-name-enhanced",
+      "frequency": 1
+    },
+    {
+      "tag": "amount spent matters",
+      "frequency": 1
+    },
+    {
+      "tag": "fulfilled futureshift",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-sth-allied-sliver",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-nonbasic-land",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-non-archon",
+      "frequency": 1
+    },
+    {
+      "tag": "shares name with a set",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-cmd-vow",
+      "frequency": 1
+    },
+    {
+      "tag": "mixed subtypes",
+      "frequency": 1
+    },
+    {
+      "tag": "pierce",
+      "frequency": 1
+    },
+    {
+      "tag": "haven",
+      "frequency": 1
+    },
+    {
+      "tag": "o-ring with set mechanic",
+      "frequency": 1
+    },
+    {
+      "tag": "token replacer",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-treasure",
+      "frequency": 1
+    },
+    {
+      "tag": "emerge-from-creature",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-tsp-magus",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-pw-bolas",
+      "frequency": 1
+    },
+    {
+      "tag": "wannabe dark confidant",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-bro-c-mulch",
+      "frequency": 1
+    },
+    {
+      "tag": "type errata specific wizard",
+      "frequency": 1
+    },
+    {
+      "tag": "rhyming name",
+      "frequency": 1
+    },
+    {
+      "tag": "old ward",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-copy",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-lrw-harbinger",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-dmu-c-for-ally-kicker",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-untapped",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-tmt-donatello-vertical",
+      "frequency": 1
+    },
+    {
+      "tag": "skulk",
+      "frequency": 1
+    },
+    {
+      "tag": "type errata cephalid",
+      "frequency": 1
+    },
+    {
+      "tag": "type errata specific ape",
+      "frequency": 1
+    },
+    {
+      "tag": "rescue-enchantment",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-woe-restless-land",
+      "frequency": 1
+    },
+    {
+      "tag": "type errata ghost",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-m19-precon-pw-enhanced",
+      "frequency": 1
+    },
+    {
+      "tag": "roll d8",
+      "frequency": 1
+    },
+    {
+      "tag": "spite damage",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-con-wubrg-ability",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-neo-invoke",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-wwk-utilityland",
+      "frequency": 1
+    },
+    {
+      "tag": "counterspell-automatic",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ori-draft-signpost",
+      "frequency": 1
+    },
+    {
+      "tag": "nimble",
+      "frequency": 1
+    },
+    {
+      "tag": "shardland",
+      "frequency": 1
+    },
+    {
+      "tag": "gainland",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-shm-basic-land-count",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-bro-basic-land-count",
+      "frequency": 1
+    },
+    {
+      "tag": "serpent-like",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-faerie",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-lrw-typal-dual-land",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ice-scarab",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-knight",
+      "frequency": 1
+    },
+    {
+      "tag": "combat arbiter",
+      "frequency": 1
+    },
+    {
+      "tag": "pariah",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-afr-chromatic-dragon",
+      "frequency": 1
+    },
+    {
+      "tag": "lightning bolt redux",
+      "frequency": 1
+    },
+    {
+      "tag": "gives convoke",
+      "frequency": 1
+    },
+    {
+      "tag": "removal-token",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-mkm-draft-signpost",
+      "frequency": 1
+    },
+    {
+      "tag": "delayed replacement effect",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-tsp-allied-sliver",
+      "frequency": 1
+    },
+    {
+      "tag": "gives riot",
+      "frequency": 1
+    },
+    {
+      "tag": "buttstrike",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-vow-draft-signpost",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-som-c-metalcraft",
+      "frequency": 1
+    },
+    {
+      "tag": "theft-aura",
+      "frequency": 1
+    },
+    {
+      "tag": "useless in singleton formats",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-horror",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-rix-c-typal-boost",
+      "frequency": 1
+    },
+    {
+      "tag": "super-menace",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-mh3-flare",
+      "frequency": 1
+    },
+    {
+      "tag": "tutor-cast",
+      "frequency": 1
+    },
+    {
+      "tag": "lure-limited",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ecl-student",
+      "frequency": 1
+    },
+    {
+      "tag": "sneak-aura",
+      "frequency": 1
+    },
+    {
+      "tag": "multicast",
+      "frequency": 1
+    },
+    {
+      "tag": "mathy name",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ecl-typal-kindred",
+      "frequency": 1
+    },
+    {
+      "tag": "shares name with a format",
+      "frequency": 1
+    },
+    {
+      "tag": "hate-enchantment",
+      "frequency": 1
+    },
+    {
+      "tag": "hate-forest",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-fut-dual-land",
+      "frequency": 1
+    },
+    {
+      "tag": "any zone type change",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-minotaur",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-ninjutsu",
+      "frequency": 1
+    },
+    {
+      "tag": "gives ninjutsu",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-dungeon",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-frf-modal-spell",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-msc-fantastic-four",
+      "frequency": 1
+    },
+    {
+      "tag": "omnivore ability",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-rix-elder-dinosaur",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-spider",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-morphling",
+      "frequency": 1
+    },
+    {
+      "tag": "gives unstoppable",
+      "frequency": 1
+    },
+    {
+      "tag": "unstoppable",
+      "frequency": 1
+    },
+    {
+      "tag": "type errata viashino",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-attraction",
+      "frequency": 1
+    },
+    {
+      "tag": "hunger",
+      "frequency": 1
+    },
+    {
+      "tag": "prevent damage redirection",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-bro-urza-vertical",
+      "frequency": 1
+    },
+    {
+      "tag": "tuck-outlet",
+      "frequency": 1
+    },
+    {
+      "tag": "gives intimidate",
+      "frequency": 1
+    },
+    {
+      "tag": "guest designer",
+      "frequency": 1
+    },
+    {
+      "tag": "burn-self",
+      "frequency": 1
+    },
+    {
+      "tag": "ball lightning",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-inv-mutation",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-all-replacement-land",
+      "frequency": 1
+    },
+    {
+      "tag": "sacrifice cost land",
+      "frequency": 1
+    },
+    {
+      "tag": "transform-mirror",
+      "frequency": 1
+    },
+    {
+      "tag": "bribery",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ody-sacland",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-beast",
+      "frequency": 1
+    },
+    {
+      "tag": "magic term name",
+      "frequency": 1
+    },
+    {
+      "tag": "raid",
+      "frequency": 1
+    },
+    {
+      "tag": "discard matters",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-emblem",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-mor-typal-counter-lord",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-kld-thriving-creature",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-eoe-draft-signpost",
+      "frequency": 1
+    },
+    {
+      "tag": "reach counter",
+      "frequency": 1
+    },
+    {
+      "tag": "trample counter",
+      "frequency": 1
+    },
+    {
+      "tag": "hate-typal-non-elf",
+      "frequency": 1
+    },
+    {
+      "tag": "gains fear",
+      "frequency": 1
+    },
+    {
+      "tag": "power matters-individual",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-spellshaped-from-fut",
+      "frequency": 1
+    },
+    {
+      "tag": "sunburst",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ons-c-cycle-effect",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-chk-flash-aura",
+      "frequency": 1
+    },
+    {
+      "tag": "loner",
+      "frequency": 1
+    },
+    {
+      "tag": "type errata specific spirit",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-arb-dual-landcycler",
+      "frequency": 1
+    },
+    {
+      "tag": "sneak-self",
+      "frequency": 1
+    },
+    {
+      "tag": "even/odd matters",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-mom-invasion-signpost",
+      "frequency": 1
+    },
+    {
+      "tag": "counterspell-exile",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-tsp-forward-flashback",
+      "frequency": 1
+    },
+    {
+      "tag": "gives banding",
+      "frequency": 1
+    },
+    {
+      "tag": "hate-typal-goblin",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-gnt-mythic",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ths-self-hate",
+      "frequency": 1
+    },
+    {
+      "tag": "damage increaser",
+      "frequency": 1
+    },
+    {
+      "tag": "miniwheel",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ecl-c-hybrid",
+      "frequency": 1
+    },
+    {
+      "tag": "draw matters",
+      "frequency": 1
+    },
+    {
+      "tag": "synergy-exhaust",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-war-bond",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-eld-court-leader",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-akh-allied-aftermath",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-eld-hybrid",
+      "frequency": 1
+    },
+    {
+      "tag": "ninjutsu",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-dft-gearhulk",
+      "frequency": 1
+    },
+    {
+      "tag": "high flying",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-abu-dual-land",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-unf-u-blank",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-ths-emissary",
+      "frequency": 1
+    },
+    {
+      "tag": "gives demonstrate",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-mkm-hybrid-disguise",
+      "frequency": 1
+    },
+    {
+      "tag": "lich effect",
+      "frequency": 1
+    },
+    {
+      "tag": "show and tell",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-vow-c-typal-boost",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-spm-r-hybrid",
+      "frequency": 1
+    },
+    {
+      "tag": "typal-drake",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-mh3-c-draft-signpost",
+      "frequency": 1
+    },
+    {
+      "tag": "cranial plating",
+      "frequency": 1
+    },
+    {
+      "tag": "white elephant",
+      "frequency": 1
+    },
+    {
+      "tag": "shield counter",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-blb-duo",
+      "frequency": 1
+    },
+    {
+      "tag": "cycle-bng-nyxborn",
+      "frequency": 1
+    },
+    {
+      "tag": "players outside game matter",
+      "frequency": 1
+    }
+  ]
+}
