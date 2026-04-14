@@ -9,20 +9,19 @@ Build a local UI for the existing Commander deckbuilding workflow with:
 - a visible current deck / counts panel
 - support for A1, A4, A5, and A6 recommendation interactions
 
-The fastest implementation path is a **local Streamlit app** on top of the current Python backend.
+The chosen implementation path is a **local Flask app** on top of the current Python backend.
 
-## Why Streamlit
+## Why Flask
 
 - The project is already Python-first.
 - The current workflow, agent runner, and Scryfall helpers are already in Python.
-- Streamlit is much faster to ship than React + API for a local tool.
-- It supports:
-  - chat-like layouts
-  - images
-  - buttons
-  - forms
-  - session state
-  - sidebars / columns
+- Flask plus Jinja templates and a small amount of vanilla JS gives tighter control over:
+  - request flow
+  - double-submit prevention
+  - loading states
+  - page refresh / polling
+  - clickable card-image actions
+- This turned out to be more reliable for the chat workflow than Streamlit's rerun model.
 
 ## Core Architecture
 
@@ -49,26 +48,30 @@ Instead, add a UI-facing session controller that returns structured UI events.
 - advances the flow one step at a time
 - returns structured events instead of printing / reading input
 
-3. Streamlit app
+3. Flask app + templates + JS
 - renders messages and recommendation batches
 - collects user input
 - calls the session controller
+- polls while background work is running
 
 ## Initial File Structure
 
 Recommended additions:
 
-- `ui_app.py`
+- `web_app.py`
 - `commander_deckbuilder/ui_session.py`
 - `commander_deckbuilder/ui_events.py`
 - `commander_deckbuilder/card_view_models.py`
+- `templates/chat.html`
+- `static/app.js`
+- `static/styles.css`
 
 ### Responsibilities
 
-`ui_app.py`
-- Streamlit entrypoint
+`web_app.py`
+- Flask entrypoint
 - renders layout
-- stores session in `st.session_state`
+- stores session in server-side per-user session state
 
 `commander_deckbuilder/ui_session.py`
 - stateful orchestration for the UI flow
@@ -307,48 +310,41 @@ Internally it should track:
 - `DeckState`
 - any in-progress agent conversation history
 
-## Fastest Implementation Order
+## Current Implementation Order
 
-### Milestone 1
+### Completed
 
-Make Streamlit app boot and render:
+- Flask app boots and renders:
+  - chat history
+  - deck sidebar
+  - clickable card-image batches
+- A1 is wired:
+  - text input
+  - commander search cards
+  - random commander cards
+  - commander confirmation
+- A2 is wired as text chat.
+- Post-A2 loading screen is wired:
+  - background A3
+  - background EDHREC
+  - clickable EDHREC `High Synergy` / `Top Cards`
+- A4 is wired:
+  - background precomputation
+  - category recommendation batches
+  - add-to-deck clicks
+  - previous / next batch navigation
 
-- chat history
-- deck sidebar
-- fake recommendation batch from static data
+### Next
 
-### Milestone 2
-
-Wire A1 only:
-
-- text input
-- commander search cards
-- random commander cards
-- commander confirmation
-
-### Milestone 3
-
-Wire A4:
-
-- EDHREC opening recommendations
-- category recommendations
-- add-to-deck clicks
-
-### Milestone 4
-
-Wire A5:
-
-- utility land card grid
-- total land count input
-- final mana-base display
-
-### Milestone 5
-
-Wire A6:
-
-- add mode cards
-- cut mode cards
-- decklist export notice
+- Wire A5:
+  - utility land card grid
+  - total land count input
+  - final mana-base display
+- Wire A6:
+  - add mode cards
+  - cut mode cards
+  - decklist export notice
+- Wire A7 / export UI
 
 ## Fastest MVP Decision
 
@@ -379,20 +375,20 @@ That controller should:
 
 The Streamlit app should only render those objects and send user actions back.
 
-## Recommended First Code Tasks
+## Recommended Next Code Tasks
 
-1. Add `get_card_image_url(...)` to `ScryfallService`
-2. Add `UICard` and event dataclasses
-3. Create `DeckbuilderUISession`
-4. Create `ui_app.py`
-5. Implement A1 in UI first
+1. Wire A5 into the Flask UI
+2. Wire A6 into the Flask UI
+3. Add A7 / export UI handling
+4. Improve deck sidebar formatting and total-price display
+5. Add polish items like dark mode
 
 ## Local Run Target
 
 Expected local command:
 
 ```powershell
-streamlit run ui_app.py
+python web_app.py
 ```
 
 ## Non-Goals For First Pass

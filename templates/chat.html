@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Commander Deckbuilder</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+  <body data-auto-refresh-loading="{% if auto_refresh_active %}true{% else %}false{% endif %}">
+  <div class="page">
+    <aside class="sidebar">
+      <div class="sidebar-card">
+        <h2>Deck State</h2>
+        <p><strong>Commander:</strong> {{ deck_state.commander or "Not selected" }}</p>
+        <p><strong>Non-commander cards:</strong> {{ deck_state.total_non_commander_cards }}</p>
+      </div>
+
+      <div class="sidebar-card">
+        <h3>Category Counts</h3>
+        <ul class="plain-list">
+          {% for category, count in deck_state.category_counts.items() %}
+            {% if not (category == "commander" and count == 0) %}
+              <li>{{ category }}: {{ count }}</li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
+      {% if deck_state.decklist_preview %}
+      <div class="sidebar-card">
+        <h3>Decklist</h3>
+        <ul class="plain-list">
+          {% for item in deck_state.decklist_preview %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      <form method="post" action="{{ url_for('reset') }}">
+        <button class="secondary-button" type="submit">Reset Session</button>
+      </form>
+    </aside>
+
+    <main class="main">
+      <header class="main-header">
+        <h1>Commander Deckbuilder</h1>
+        <p>Local Flask UI. A1 is wired first; A4-A6 UI wiring is next.</p>
+      </header>
+
+      {% if notice %}
+      <section class="notice-banner">
+        {{ notice }}
+      </section>
+      {% endif %}
+
+      <section class="chat-log">
+        {% for event in events %}
+          {% if event.kind == "phase" %}
+            <div class="phase-banner">{{ event.title }}</div>
+          {% elif event.kind == "chat" %}
+            <div class="chat-row {{ event.role }}">
+              <div class="chat-bubble">
+                {% if event.agent_id %}
+                  <div class="agent-label">{{ event.agent_id }}</div>
+                {% endif %}
+                <div>{{ event.text }}</div>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </section>
+
+      {% if loading_context %}
+      <section class="batch-section">
+        <div class="batch-header">
+          <h2>
+            {% if loading_context.a3_complete and loading_context.a4_precompute_complete %}
+              Search plans and recommendations are ready
+            {% elif loading_context.a3_complete %}
+              Preparing A4 recommendations
+            {% else %}
+              Generating queries now
+            {% endif %}
+          </h2>
+          {% if not loading_context.a3_complete %}
+            <p>A3 is building category-specific search plans. EDHREC cards can be added while you wait.</p>
+          {% elif not loading_context.a4_precompute_complete %}
+            <p>A3 is finished. A4 is precomputing category recommendations in the background while you browse EDHREC.</p>
+          {% endif %}
+          {% if loading_context.a3_error %}
+            <p class="error-text">A3 error: {{ loading_context.a3_error }}</p>
+          {% endif %}
+          {% if loading_context.a3_validation_notes %}
+            <p class="muted">{{ loading_context.a3_validation_notes }}</p>
+          {% endif %}
+          {% if loading_context.a4_precompute_error %}
+            <p class="error-text">A4 precompute error: {{ loading_context.a4_precompute_error }}</p>
+          {% endif %}
+          {% if loading_context.a4_precompute_started %}
+            <p class="muted">
+              A4 batches prepared: {{ loading_context.a4_precomputed_count }}
+              {% if loading_context.a4_precompute_total %}
+                / {{ loading_context.a4_precompute_total }}
+              {% endif %}
+              {% if not loading_context.a4_precompute_complete %}(still running){% endif %}
+            </p>
+          {% endif %}
+          {% if loading_context.edhrec_error %}
+            <p class="error-text">EDHREC error: {{ loading_context.edhrec_error }}</p>
+          {% endif %}
+        </div>
+
+        <div class="edhrec-sections">
+          <section class="edhrec-column">
+            <h3>High Synergy</h3>
+            {% if loading_context.sections.high_synergy %}
+              <div class="card-grid">
+                {% for card in loading_context.sections.high_synergy %}
+                <article class="card-tile">
+                  {% if card.image_url %}
+                    <img src="{{ card.image_url }}" alt="{{ card.name }}" class="card-image">
+                  {% else %}
+                    <div class="card-image placeholder">No image</div>
+                  {% endif %}
+                  <div class="card-meta">
+                    <h3>{{ card.name }}</h3>
+                    {% if card.type_line %}<p>{{ card.type_line }}</p>{% endif %}
+                    <p class="muted">
+                      {% if card.mana_cost %}{{ card.mana_cost }}{% endif %}
+                      {% if card.usd %}{% if card.mana_cost %} | {% endif %}${{ card.usd }}{% endif %}
+                    </p>
+                  </div>
+                  <form method="post" action="{{ url_for('add_edhrec') }}" class="action-form js-lock-form">
+                    <input type="hidden" name="section" value="high_synergy">
+                    <input type="hidden" name="card_name" value="{{ card.name }}">
+                    <button type="submit">Add to Deck</button>
+                  </form>
+                </article>
+                {% endfor %}
+              </div>
+            {% else %}
+              <p class="muted">
+                {% if loading_context.edhrec_ready %}
+                  No usable high-synergy cards were available.
+                {% else %}
+                  Loading high-synergy cards...
+                {% endif %}
+              </p>
+            {% endif %}
+          </section>
+
+          <section class="edhrec-column">
+            <h3>Top Cards</h3>
+            {% if loading_context.sections.top_cards %}
+              <div class="card-grid">
+                {% for card in loading_context.sections.top_cards %}
+                <article class="card-tile">
+                  {% if card.image_url %}
+                    <img src="{{ card.image_url }}" alt="{{ card.name }}" class="card-image">
+                  {% else %}
+                    <div class="card-image placeholder">No image</div>
+                  {% endif %}
+                  <div class="card-meta">
+                    <h3>{{ card.name }}</h3>
+                    {% if card.type_line %}<p>{{ card.type_line }}</p>{% endif %}
+                    <p class="muted">
+                      {% if card.mana_cost %}{{ card.mana_cost }}{% endif %}
+                      {% if card.usd %}{% if card.mana_cost %} | {% endif %}${{ card.usd }}{% endif %}
+                    </p>
+                  </div>
+                  <form method="post" action="{{ url_for('add_edhrec') }}" class="action-form js-lock-form">
+                    <input type="hidden" name="section" value="top_cards">
+                    <input type="hidden" name="card_name" value="{{ card.name }}">
+                    <button type="submit">Add to Deck</button>
+                  </form>
+                </article>
+                {% endfor %}
+              </div>
+            {% else %}
+              <p class="muted">
+                {% if loading_context.edhrec_ready %}
+                  No usable top cards were available.
+                {% else %}
+                  Loading top cards...
+                {% endif %}
+              </p>
+            {% endif %}
+          </section>
+        </div>
+
+        {% if loading_context.a3_complete and loading_context.a4_precomputed_count > 0 and not loading_context.a4_precompute_error %}
+          <form method="post" action="{{ url_for('start_a4') }}" class="action-form js-lock-form">
+            <button type="submit">
+              {% if loading_context.a4_precompute_complete %}
+                Continue to A4 Recommendations
+              {% else %}
+                Continue to Available A4 Recommendations
+              {% endif %}
+            </button>
+          </form>
+        {% elif loading_context.a3_complete %}
+          <form class="action-form">
+            <button type="button" disabled>Preparing A4 Recommendations...</button>
+          </form>
+        {% endif %}
+      </section>
+      {% endif %}
+
+      {% if active_batch %}
+      <section class="batch-section">
+        <div class="batch-header">
+          <h2>{{ active_batch.title }}</h2>
+          {% if active_batch.theme_focus %}
+            <p>{{ active_batch.theme_focus }}</p>
+          {% endif %}
+          {% if active_batch.action_mode == "add" and active_batch.next_pending %}
+            <p class="muted">More A4 batches are still being prepared in the background.</p>
+          {% endif %}
+        </div>
+        <div class="card-grid">
+          {% for card in active_batch.cards %}
+          <article class="card-tile">
+            {% if card.image_url %}
+              <img src="{{ card.image_url }}" alt="{{ card.name }}" class="card-image">
+            {% else %}
+              <div class="card-image placeholder">No image</div>
+            {% endif %}
+            <div class="card-meta">
+              <h3>{{ card.name }}</h3>
+              {% if card.type_line %}<p>{{ card.type_line }}</p>{% endif %}
+              <p class="muted">
+                {% if card.mana_cost %}{{ card.mana_cost }}{% endif %}
+                {% if card.usd %}{% if card.mana_cost %} | {% endif %}${{ card.usd }}{% endif %}
+              </p>
+              {% if card.note %}<p>{{ card.note }}</p>{% endif %}
+            </div>
+            <form method="post" action="{{ url_for('select_card') }}" class="action-form js-lock-form">
+              <input type="hidden" name="batch_id" value="{{ active_batch.batch_id }}">
+              <input type="hidden" name="card_name" value="{{ card.name }}">
+              <button type="submit">
+                {% if active_batch.action_mode == "confirm_one" %}
+                  Confirm Commander
+                {% elif active_batch.action_mode == "add" %}
+                  Add to Deck
+                {% else %}
+                  Choose Commander
+                {% endif %}
+              </button>
+            </form>
+          </article>
+          {% endfor %}
+        </div>
+
+        {% if active_batch.action_mode == "add" %}
+        <div class="batch-nav-row">
+          {% if active_batch.can_go_prev %}
+          <form method="post" action="{{ url_for('a4_prev') }}" class="action-form js-lock-form">
+            <button class="secondary-button" type="submit">Previous Batch</button>
+          </form>
+          {% endif %}
+
+          {% if active_batch.can_go_next %}
+          <form method="post" action="{{ url_for('a4_next') }}" class="action-form js-lock-form">
+            <button class="secondary-button" type="submit">Next Batch</button>
+          </form>
+          {% elif active_batch.next_pending %}
+          <form class="action-form">
+            <button class="secondary-button" type="button" disabled>Next Batch (Preparing...)</button>
+          </form>
+          {% else %}
+          <form method="post" action="{{ url_for('a4_next') }}" class="action-form js-lock-form">
+            <button class="secondary-button" type="submit">Finish A4</button>
+          </form>
+          {% endif %}
+        </div>
+        {% elif active_batch.allow_skip %}
+        <form method="post" action="{{ url_for('skip') }}" class="action-form js-lock-form">
+          <button class="secondary-button" type="submit">Skip This Batch</button>
+        </form>
+        {% endif %}
+      </section>
+      {% endif %}
+
+      {% if active_prompt %}
+      <section class="input-panel">
+        <form method="post" action="{{ url_for('submit_text') }}" class="prompt-form js-lock-form" id="prompt-form">
+          <input type="hidden" name="prompt_id" value="{{ active_prompt.prompt_id }}">
+          <label for="user_text">{{ active_prompt.label or "Reply" }}</label>
+          <div class="input-row">
+            <input
+              id="user_text"
+              name="user_text"
+              type="text"
+              placeholder="{{ active_prompt.placeholder or 'Reply' }}"
+              autocomplete="off"
+              required
+            >
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </section>
+      {% elif phase in ["a1_complete", "a5_pending"] %}
+      <section class="input-panel">
+        <p class="muted">
+          {% if phase == "a5_pending" %}
+            A4 UI scaffold complete. A5 UI wiring is next.
+          {% else %}
+            A1 UI scaffold complete. A4-A6 UI wiring is next.
+          {% endif %}
+        </p>
+      </section>
+      {% endif %}
+
+      <div id="loading-overlay" class="loading-overlay hidden">
+        <div class="loading-card">
+          <div class="spinner"></div>
+          <p>Agent is loading...</p>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

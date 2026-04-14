@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import random
+from threading import Lock
 from time import perf_counter, sleep
 from pathlib import Path
 
@@ -24,6 +25,7 @@ class ScryfallService:
         self.tags_path = tags_path
         self.min_request_interval_seconds = min_request_interval_seconds
         self._last_request_started_at = 0.0
+        self._request_lock = Lock()
         self._named_lookup_cache: dict[str, dict | None] = {}
         self._search_page_cache: dict[tuple[str, int], dict] = {}
         self._search_cards_cache: dict[tuple[str, int], list[dict]] = {}
@@ -32,10 +34,11 @@ class ScryfallService:
         ] = {}
 
     def _respect_rate_limit(self) -> None:
-        elapsed = perf_counter() - self._last_request_started_at
-        if elapsed < self.min_request_interval_seconds:
-            sleep(self.min_request_interval_seconds - elapsed)
-        self._last_request_started_at = perf_counter()
+        with self._request_lock:
+            elapsed = perf_counter() - self._last_request_started_at
+            if elapsed < self.min_request_interval_seconds:
+                sleep(self.min_request_interval_seconds - elapsed)
+            self._last_request_started_at = perf_counter()
 
     def _throttled_get(self, url: str, **kwargs) -> requests.Response:
         self._respect_rate_limit()
@@ -79,7 +82,34 @@ class ScryfallService:
             "usd": ScryfallService.get_lowest_price(card),
             "set": (card.get("set") or "").upper(),
             "edhrec_rank": card.get("edhrec_rank"),
+            "image_url": ScryfallService.get_card_image_url(card),
+            "scryfall_uri": card.get("scryfall_uri"),
         }
+
+    @staticmethod
+    def get_card_image_url(card: dict | None) -> str | None:
+        if not card:
+            return None
+
+        image_uris = card.get("image_uris")
+        if isinstance(image_uris, dict):
+            normal = image_uris.get("normal")
+            if normal:
+                return str(normal)
+
+        card_faces = card.get("card_faces")
+        if isinstance(card_faces, list):
+            for face in card_faces:
+                if not isinstance(face, dict):
+                    continue
+                face_uris = face.get("image_uris")
+                if not isinstance(face_uris, dict):
+                    continue
+                normal = face_uris.get("normal")
+                if normal:
+                    return str(normal)
+
+        return None
 
     @staticmethod
     def _extract_error_message(exc: requests.RequestException) -> str:
@@ -192,6 +222,10 @@ class ScryfallService:
                     "type_line": card.get("type_line"),
                     "oracle_text": card.get("oracle_text", ""),
                     "color_identity": card.get("color_identity", []),
+                    "mana_cost": card.get("mana_cost"),
+                    "usd": self.get_lowest_price(card),
+                    "image_url": self.get_card_image_url(card),
+                    "scryfall_uri": card.get("scryfall_uri"),
                 }
             )
         return candidates
@@ -233,9 +267,13 @@ class ScryfallService:
             seen_names.add(name)
             candidate = {
                 "name": name,
+                "mana_cost": card.get("mana_cost"),
                 "type_line": card.get("type_line"),
                 "oracle_text": card.get("oracle_text", ""),
                 "color_identity": card.get("color_identity", []),
+                "usd": self.get_lowest_price(card),
+                "image_url": self.get_card_image_url(card),
+                "scryfall_uri": card.get("scryfall_uri"),
                 "edhrec_rank": card.get("edhrec_rank"),
             }
 

@@ -337,12 +337,18 @@ Plain code routes to Phase 6 (Option A) or Phase 7 (Option B).
 ---
 
 ## UI Direction
-- The agreed first UI should be a **local Streamlit app** rather than a separate frontend/backend web stack.
+- The current UI direction is a **local Flask app** rather than a separate frontend/backend web stack.
 - The UI should not drive the current CLI workflow directly because the CLI is tightly coupled to `print(...)` and `input(...)`.
-- Instead, add a UI-facing session controller that:
+- Instead, use a UI-facing session controller that:
   - owns `DeckState`
   - advances the workflow one step at a time
   - returns structured events for the UI to render
+- The current local UI stack is:
+  - `web_app.py`
+  - `templates/chat.html`
+  - `static/app.js`
+  - `static/styles.css`
+  - `commander_deckbuilder/ui_session.py`
 - The detailed UI build spec now lives in `docs/ui_implementation_plan.md`.
 
 ### UI Requirements
@@ -356,17 +362,36 @@ Plain code routes to Phase 6 (Option A) or Phase 7 (Option B).
   - A5 utility-land recommendations
   - A6 additions and cut suggestions
 
-### Immediate UI Build Order
+### Current UI Progress
+Completed:
 1. Add a Scryfall helper to extract card image URLs.
-2. Add UI event dataclasses for:
-   - chat messages
-   - prompts
-   - recommendation batches
-   - deck-state refreshes
+2. Add UI event dataclasses and UI card view models.
 3. Add a UI session controller layer.
-4. Scaffold `ui_app.py`.
-5. Implement A1 in the UI first.
-6. Then implement A4, then A5, then A6.
+4. Replace the failed Streamlit path with `web_app.py`.
+5. Implement A1 in the UI.
+6. Implement A2 in the UI.
+7. Implement a post-A2 loading phase where A3 and EDHREC run in parallel.
+8. Implement A4 in the UI with:
+   - clickable card images
+   - background precomputation
+   - next / previous batch navigation
+
+Next:
+1. Implement A5 in the UI.
+2. Implement A6 in the UI.
+3. Add export / A7 UI handling.
+
+### Current Flask UI Flow
+- A1 is conversational and clickable in the UI.
+- A2 is conversational in the UI.
+- After A2:
+  - A3 runs in the background
+  - EDHREC data loads in the background
+  - the user can add EDHREC `High Synergy` and `Top Cards` while waiting
+- Once A3 finishes and at least one A4 batch is prepared:
+  - the user can enter A4 immediately
+  - additional A4 batches continue preparing in the background
+- A4 supports browsing through prepared batches with explicit previous / next controls.
 
 ---
 
@@ -374,6 +399,6 @@ Plain code routes to Phase 6 (Option A) or Phase 7 (Option B).
 - Exact Scryfall API endpoints and query syntax.
 - Exact price cap per card for each `budget_tier`.
 - Whether A4 gets one re-query attempt on poor results, or the user manually triggers a new batch.
-- Exact visual styling of the Streamlit UI once the first local version exists.
+- Exact visual styling of the Flask UI once the current local version is polished.
 - Whether session state is stored in memory only, or persisted to disk/session file for resumability.
 - How plain code should repair or discard invalid A3-generated Scryfall queries.

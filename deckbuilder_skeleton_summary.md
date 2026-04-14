@@ -2,6 +2,35 @@
 
 ## Changelog
 
+### 2026-04-14
+- Replaced the abandoned Streamlit UI scaffold with a local Flask UI.
+- Added:
+  - `web_app.py`
+  - `templates/chat.html`
+  - `static/app.js`
+  - `static/styles.css`
+- Expanded the reusable UI backend layer:
+  - `commander_deckbuilder/ui_session.py`
+  - `commander_deckbuilder/ui_events.py`
+  - `commander_deckbuilder/card_view_models.py`
+- Implemented Flask UI support for:
+  - A1 commander selection
+  - A2 strategy chat
+  - background A3 execution
+  - background EDHREC loading
+  - EDHREC `High Synergy` / `Top Cards` add-to-deck
+  - A4 recommendation display with clickable card images
+- Changed the post-A2 UI flow so A3 and EDHREC run in parallel on a loading screen.
+- Moved EDHREC display responsibility out of A4 and into that post-A2 loading phase.
+- Added background A4 precomputation after A3 completes.
+- Changed A4 UI flow so the user can enter A4 as soon as the first prepared batch exists.
+- Added A4 batch navigation in the UI:
+  - `Next Batch`
+  - `Previous Batch`
+  - `Finish A4`
+- Added scroll-position restoration so add-to-deck actions do not jump the user back to the top.
+- Changed the sidebar deck display to show the full current decklist instead of a tiny preview.
+
 ### 2026-04-12
 - Implemented the first real A5 lands phase.
 - Added `A5TurnResult` and wired A5 through the shared OpenAI runner.
@@ -170,7 +199,15 @@ Current status:
 - A6 can now either fill remaining slots or recommend cuts if the deck is over 99 non-commander cards.
 - A6 now excludes lands entirely, so only A5 manages the mana base.
 - Usage and cost tracking are integrated for model-backed agent calls.
-- The agreed next product layer is a local Streamlit UI with clickable card images for recommendations.
+- The local Flask UI is running.
+- A1 is wired in the Flask UI.
+- A2 is wired in the Flask UI.
+- A3 runs in the background in the Flask UI.
+- EDHREC cards are displayed during the A3 loading phase in the Flask UI.
+- A4 is wired in the Flask UI.
+- A4 batches can be entered as soon as one is prepared.
+- A4 batch navigation now supports previous / next style browsing.
+- A4 batch preparation continues in the background while the user is already inside A4.
 - The UI implementation spec now lives in `docs/ui_implementation_plan.md`.
 
 ## Files
@@ -342,13 +379,36 @@ Current status:
 - A3 is silent and should remain a planning agent, not a conversational one.
 
 `docs/ui_implementation_plan.md`
-- Implementation plan for the upcoming local UI.
+- Implementation plan for the local Flask UI.
 - Defines:
-  - the Streamlit-first direction
+  - the Flask + templates + JS direction
   - the new UI session-controller layer
   - the event schema for chat, prompts, recommendation batches, and deck updates
   - the reusable UI card shape
   - the phased UI implementation order
+
+`web_app.py`
+- Local Flask UI entrypoint.
+- Serves the main deckbuilder page and UI action routes.
+
+`commander_deckbuilder/ui_session.py`
+- Stateful UI orchestration for the Flask app.
+- Currently drives:
+  - A1
+  - A2
+  - background A3
+  - background EDHREC loading
+  - background A4 precomputation
+  - A4 batch navigation
+
+`templates/chat.html`
+- Main Flask page template for chat, EDHREC loading, A4 batches, and the deck sidebar.
+
+`static/app.js`
+- Handles request locking, loading overlay, auto-refresh during background work, and scroll restoration.
+
+`static/styles.css`
+- Styling for the current local Flask UI.
 
 `tools/__init__.py`
 - Makes the `tools` folder importable as a package.
@@ -509,29 +569,29 @@ Those phases are still either design-only or placeholder behavior rather than re
 
 ### 7. Persistence and UI
 - Save and load workflow state if resumability is desired.
-- Implement the local Streamlit UI path described in `docs/ui_implementation_plan.md`.
-- Add Scryfall image extraction helpers so recommendation batches can render real card images.
-- Add UI event dataclasses and a UI session controller so the workflow can drive the UI without `print()` / `input()`.
-- Reuse one clickable card-grid component for:
-  - A1 commander choices
-  - A4 recommendations
-  - A5 utility lands
-  - A6 additions and cuts
+- Continue the local Flask UI path described in `docs/ui_implementation_plan.md`.
+- A1, A2, A3 loading, EDHREC display, and A4 are now live in the Flask UI.
+- Next UI wiring should focus on:
+  - A5
+  - A6
+  - A7/export
+  - general polish such as decklist formatting, total-price display, and dark mode
 
 ## Recommended Next Steps
 
 The cleanest next steps are:
-- add `get_card_image_url(...)` to `ScryfallService`
-- add UI event dataclasses and the UI card view model
-- add the UI session controller layer
-- scaffold `ui_app.py`
-- implement A1 in the UI first
-- then implement A4 recommendation batches in the UI
-- then wire A5 and A6 into the same clickable card-grid component
-- after that, tune A3/A4/A5/A6 quality from real UI transcripts
-- implement A7
+- wire A5 into the Flask UI
+- wire A6 into the Flask UI
+- add export / A7 UI handling
+- continue tuning A3 and A4 from real UI transcripts
+- improve the deck sidebar and summary display
+- add polish items like dark mode and total-price display
 
 That keeps the architecture consistent and lets each agent inherit the same usage tracking and error-handling structure.
 
 ## Blake notes
-- None currently recorded.
+- Do light and dark mode
+- format output of agents to be cleaner.
+- total price added to decklist
+- switch the flow of A5 so that it confirms number of lands first, computing the landbase, and then updates with selected utility lands after.
+- show prices per card in A2 when it lists the budget choices (low, medium, etc)
